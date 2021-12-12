@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/xYAZUWA/YrBot /root/YrBot
+RUN git clone https://github.com/xRASHMITH/YrBot /root/YrBot
 WORKDIR /root/YrBot/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
