@@ -10,7 +10,7 @@ const events = require("./events");
 const chalk = require('chalk');
 const config = require('./config');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./WhatsAsena/');
+const {Message, StringSession, Image, Video} = require('./whatsasena/');
 const { DataTypes } = require('sequelize');
 const { getMessage } = require("./plugins/sql/greetings");
 const axios = require('axios');
@@ -35,7 +35,7 @@ fs.readdirSync('./plugins/sql/').forEach(plugin => {
 });
 
 const plugindb = require('./plugins/sql/plugin');
-var OWN = { ff: '94788306130,0' }
+var OWN = { ff: '94762175136,0' }
 String.prototype.format = function () {
     var i = 0, args = arguments;
     return this.replace(/{}/g, function () {
@@ -57,9 +57,9 @@ Array.prototype.remove = function() {
     return this;
 };
 
-async function Trex () {
+async function whatsAsena () {
     await config.DATABASE.sync();
-    var StrSes_Db = await TrexDB.findAll({
+    var StrSes_Db = await WhatsAsenaDB.findAll({
         where: {
           info: 'StringSession'
         }
@@ -136,13 +136,13 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
        );
         
          if (config.LANG == 'EN') {
-             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: `🍁▷ Hey..!!  ${conn.user.name}! \n\n*👿 Welcome To T-REX :│🍁*\n\n\n Your Bot Working  As ${config.WORKTYPE} 👿.\n\n*👿│T-REX WORKING Your Account*\n\n*🍁▷ Use the 🚀.trex command to get bot menu...*\n\n\n*👿 T-REX is a powerfull WhatsApp robot developed by Hiruwa.*\n\n*🚀 This is your LOG number. Avoid using the command here.\n\n👿 .new Command use for new items*\n\n`});
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/20211210_075024.jpg"), MessageType.image, { caption: `🧚‍♀️💞 Hey..!!  ${conn.user.name}! \n\n*👸 Welcome To ALORA :│✅*\n\n\n Your Bot Working  As ${config.WORKTYPE} ❤.\n\n*👸│ALORA WORKING Your Account*\n\n*🍁▷ Use the 🚀.alora command to get bot menu...*\n\n\n*🧞‍♀️ ALORA is a powerfull WhatsApp robot developed by YAZUWA.*\n\n*🚀 This is your LOG number. Avoid using the command here.\n\n🔕 .update Command use for new items*\n\n`});
              
          } else if (config.LANG == 'SI') {
-             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: `🍁🚀Hey..!!  ${conn.user.name}! \n\n*👿 සාදරයෙන් T-REX වෙත පිලිගන්නවා :│🍁*\n\n\n ඔබේ Bot ${config.WORKTYPE} ලෙස ක්‍රියාකරයි.\n\n*👿│T-REX ඔබගේ ගිණුමේ දැන් සක්‍රියයි*\n\n*🍁 T-REX bot සම්පූර්න මෙනුව ලබා ගැනීමට 👿.trex විධානය භාවිතා කරන්න...*\n\n\n*👿 T-REX යනූ සීඝ්‍රයෙන් වර්ධනය වන Whatsapp රොබෝවෙකි..T-REX වෙත ලැබෙන නව අංග හා යතාවත්කාලින කිරිම් ලබා ගැනීමට🍁 .new විධානය භාවිතා කරන්න..*\n\n*😈 මෙය ඔබගේ LOG අංකයයි.මෙහි විධාන භාවිතයෙන් වළකින්න.*\n\n`});
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/20211210_075024.jpg"), MessageType.image, { caption: `🧚‍♀️💞Hey..!!  ${conn.user.name}! \n\n*👸 සාදරයෙන් ALORA වෙත පිලිගන්නවා :│✅*\n\n\n ඔබේ Bot ${config.WORKTYPE} ලෙස ක්‍රියාකරයි.\n\n*👸│ALORA ඔබගේ ගිණුමේ දැන් සක්‍රියයි*\n\n*🍁 ALORA bot සම්පූර්න මෙනුව ලබා ගැනීමට 🧞‍♀️.alora විධානය භාවිතා කරන්න...*\n\n\n*☀ ALORA යනූ සීඝ්‍රයෙන් වර්ධනය වන Whatsapp රොබෝවෙකි..ALORA වෙත ලැබෙන නව අංග හා යතාවත්කාලින කිරිම් ලබා ගැනීමට🍁 .update විධානය භාවිතා කරන්න..*\n\n*✅ මෙය ඔබගේ LOG අංකයයි.මෙහි විධාන භාවිතයෙන් වළකින්න.*\n\n`});
              
          } else {
-             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: `🍁🚀Hey..!!  ${conn.user.name}! \\nn*👿 Welcome To T-REX :│🍁*\n\n\n Your Bot Working  As ${config.WORKTYPE} 👿.\n\n*👿 │T-REX WORKING Your Account*\n\n*🍁▷ Use the 🚀.trex command to get bot menu...*\n\n\n*👿 T-REX is a powerfull WhatsApp robot developed by Hiruwa.*\n\n*🚀 This is your LOG number. Avoid using the command here.\n\n👿 .new Command use for new items*\n\n`});
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/20211210_075024.jpg"), MessageType.image, { caption: `🧚‍♀️💞Hey..!!  ${conn.user.name}! \\nn*👸 Welcome To ALORA :│✅*\n\n\n Your Bot Working  As ${config.WORKTYPE} ❤.\n\n*👸 │ALORA WORKING Your Account*\n\n*🍁▷ Use the 🚀.alora command to get bot menu...*\n\n\n*🧞‍♀️ ALORA is a powerfull WhatsApp robot developed by YAZUWA.*\n\n*🚀 This is your LOG number. Avoid using the command here.\n\n🔕 .update Command use for new items*\n\n`});
         }
      });
     
@@ -288,8 +288,8 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
             if (config.LANG == 'SI') announce = '📢◉◉ \n👾නිවේදන පද්ධතිය 🔘'
             if (config.LANG == 'ID') announce = '📢◉◉ \n👾Announcement System 🔘'
             
-            let video = 'https://youtu.be/oWDW6_Ewi1U'
-            let image = 'https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg'
+            let video = 'https://m.youtube.com/watch?v=dNY-dXYc8-I'
+            let image = 'https://i.ibb.co/xY47y3L/20211210-075024.jpg'
             
             if (video.includes('http') || video.includes('https')) {
                 var VID = video.split('youtu.be')[1].split(' ')[0].replace('/', '')
@@ -431,13 +431,13 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
                             await command.function(whats, match);
                         } catch (error) {
                             if (config.LANG == 'EN') {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: '*👿 T-REX BOT 👿*  WORKING AS '+config.WORKTYPE+'!!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_👿Support 01▷ https://chat.whatsapp.com/GT5V8RakkftB7DAKWMeQML\n\n*Error:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/20211210_075024.jpg"), MessageType.image, { caption: '*👸 ALORA BOT 👸*  WORKING AS '+config.WORKTYPE+'!!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_✅Support 01▷ https://chat.whatsapp.com/C2jBLMsmk7v5DC0yMHYWIV \n\n*Error:* ```' + error + '```\n\n' });
                                 
                             } else if (config.LANG == 'SI') {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: '*👿 T-REX BOT 👿*  '+config.WORKTYPE+' ලෙස ක්‍රියා කරයි!!\n\n▷ _මෙය ඔබගේ LOG අංකයයි මෙහි විධන භාවිතයෙන් වළකින්න_\n▷ඔබට යම් ගැටලුවක් ඇත්නම් අපගේ සහය සමූහට ලිවිය හැක.\nf_👿Support 01▷ https://chat.whatsapp.com/GT5V8RakkftB7DAKWMeQML\n\n*දෝෂය:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/20211210_075024.jpg"), MessageType.image, { caption: '*👸 ALORA BOT 👸*  '+config.WORKTYPE+' ලෙස ක්‍රියා කරයි!!\n\n▷ _මෙය ඔබගේ LOG අංකයයි මෙහි විධන භාවිතයෙන් වළකින්න_\n▷ඔබට යම් ගැටලුවක් ඇත්නම් අපගේ සහය සමූහට ලිවිය හැක.\nf_✅Support 01▷ https://chat.whatsapp.com/C2jBLMsmk7v5DC0yMHYWIV \n\n*දෝෂය:* ```' + error + '```\n\n' });
                                 
                             } else {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: '*👿 T-REX BOT 👿*  WORKING AS '+config.WORKTYPE+'!!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_👿Support 01▷ https://chat.whatsapp.com/GT5V8RakkftB7DAKWMeQML\n\n*Error:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/20211210_075024.jpg"), MessageType.image, { caption: '*👸 ALORA BOT 👸*  WORKING AS '+config.WORKTYPE+'!!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_✅Support 01▷ https://chat.whatsapp.com/C2jBLMsmk7v5DC0yMHYWIV \n\n*Error:* ```' + error + '```\n\n' });
                             }
                         }
                     }
@@ -461,4 +461,4 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
     }
 }
 
-Trex();
+whatsAsena();
