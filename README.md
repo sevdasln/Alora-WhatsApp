@@ -39,7 +39,7 @@ the user is responsible.
 </p>
 
 <div align="center">
-  <img src="https://i.ibb.co/xY47y3L/20211210-075024.jpg" width="200" height="200">
+  <img src="https://i.ibb.co/xY47y3L/20211210-075024.jpg" width="250" height="200">
   <h1>👸 ALORA BOT ✅</h1>
 </div>
 <p align="center">
