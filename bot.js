@@ -1,7 +1,7 @@
-/* Copyright (C) 2021 T-REX
+/* Copyright (C) 2021 ALORA
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-T-REX HIRUWA
+ALORA ➣ YAZUWA
 */
 
 const fs = require("fs");
@@ -16,7 +16,7 @@ const { getMessage } = require("./plugins/sql/greetings");
 const axios = require('axios');
 const got = require('got');
 
-// ════════════════════SQL🍁🍁
+// ════════════════════SQL🔰🔰
 const WhatsAsenaDB = config.DATABASE.define('WhatsAsenaDuplicated', {
     info: {
       type: DataTypes.STRING,
@@ -65,7 +65,7 @@ async function whatsAsena () {
         }
     });
     
-// ════════════════════WA CONNECTION🍁🍁🍁
+// ════════════════════WA CONNECTION🔰🔰🔰
     const conn = new WAConnection();
     conn.version = [2, 2140, 12];
     const Session = new StringSession();
@@ -130,7 +130,7 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
                 require('./plugins/' + plugin);
             }
         });
-// ════════════════════PLUGGINS SUCCESS🍁🍁🍁
+// ════════════════════PLUGGINS SUCCESS🔰🔰🔰
         console.log(
             chalk.green.bold('👸ALORA PUBLIC WORKING!▷')
        );
@@ -146,7 +146,7 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
         }
      });
     
-// ════════════════════LOGIN MESSAGE🍁🍁
+// ════════════════════LOGIN MESSAGE🔰🔰
     setInterval(async () => { 
         if (config.AUTOBIO == 'true') {
             if (conn.user.jid.startsWith('90')) { 
@@ -277,7 +277,7 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
             }
         }
     }, 7890);
-// ════════════════════AUTO BIO◽◽◽◽◽    
+// ════════════════════AUTO BIO🔰➣➣🔰    
     setInterval(async () => { 
         var getGMTh = new Date().getHours()
         var getGMTm = new Date().getMinutes()
@@ -308,7 +308,7 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
             }
         }
     }, 50000);
- // ════════════════════ANNOUNCEMENT🍁🍁🍁
+ // ════════════════════ANNOUNCEMENT🔕
     conn.on('chat-update', async m => {
         if (!m.hasNewMessage) return;
         if (!m.messages && !m.count) return;
@@ -318,7 +318,7 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
         if (config.NO_ONLINE) {
             await conn.updatePresence(msg.key.remoteJid, Presence.unavailable);
         }
-// ════════════════════NO ONLINE🍁🍁
+// ════════════════════NO ONLINE🧞‍♀️🧞‍♀️
 
         if (config.WELCOME == 'pp' || config.WELCOME == 'Pp' || config.WELCOME == 'PP' || config.WELCOME == 'pP' ) {
             if (msg.messageStubType === 32 || msg.messageStubType === 28) {
