@@ -75,9 +75,9 @@
             "MUST_TEXT": "```Please reply to any message```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart WhatsAsena",
-            "RESTART_MSG": "```Restarting...```",
-            "SHUTDOWN_DESC": "Shutdown WhatsAsena",
+            "RESTART_DESC": "Restart Alora",
+            "RESTART_MSG": "```Restarting📯...```",
+            "SHUTDOWN_DESC": "Shutdown Alora",
             "SHUTDOWN_MSG": "```Shutting down ⛔```",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
@@ -185,12 +185,12 @@
             "SONG_DESC": "Uploads the song you wrote.",
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song eminem - rap god```",
             "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "```Downloading your song...```",
-            "UPLOADING_SONG": "```Uploading your song...```",
+            "DOWNLOADING_SONG": "🎧⃟᳆𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝚂𝙾𝙽𝙶 ➷📩",
+            "UPLOADING_SONG": "🎧⃟᳆𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝚂𝙾𝙽𝙶 ➹📤",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
-            "DOWNLOADING_VIDEO": "```Downloading your video...```",
-            "UPLOADING_VIDEO": "```Uploading your video...```",
+            "DOWNLOADING_VIDEO": "```👸DOWNLOADING VIDEO✅```",
+            "UPLOADING_VIDEO": "```👸UPLOADING VIDEO✅```",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
             "GETTING_VIDEOS": "```I'm bringing videos...```",
@@ -203,7 +203,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Media downloading & converting to sticker...```"
+            "DOWNLOADING": "```➘Media downloading & converting to sticker...```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -231,17 +231,17 @@
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
             "UPDATED": "*✅ Successfully Updated!*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*💬 WhatsAsena Restarting Automatically!*",
+            "AFTER_UPDATE": "*👸Alora Restarting Automatically!*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
             "PL_DESC": "Displays metadata data of group or person.",
-            "SUB": "*Group Name:* ",
-            "DES": "*Group Description:* ",
-            "OWN": "*Founder:* ",
-            "COD": "*Unique Group Code:* ",
-            "JİD": "*Person JID:* ",
-            "ST": "*Person Status:* "
+            "SUB": "*👸Group Name:* ",
+            "DES": "*✅Group Description:* ",
+            "OWN": "*💙Founder:* ",
+            "COD": "*🔰Unique Group Code:* ",
+            "JİD": "*🧚‍♂️Person JID:* ",
+            "ST": "*☯Person Status:* "
         },
         "log": {
             "LOG": "Saves the message you reply to your private number.",
@@ -256,12 +256,12 @@
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
             "NEED_LOCATION": "* Please write a location!*\n*Example:* ```.weather Bakü```",
-            "LOCATION": "Location",
-            "TEMP": "Temperature",
-            "DESC": "Description",
-            "HUMI": "Humidity",
-            "WIND": "Wind Speed",
-            "CLOUD": "Cloud",
+            "LOCATION": "🧭Location",
+            "TEMP": "🦯Temperature",
+            "DESC": "📝Description",
+            "HUMI": "🌧Humidity",
+            "WIND": "🌀Wind Speed",
+            "CLOUD": "☁Cloud",
             "NOT_FOUND": "```I couldn't find a city with this name. 😖```"
         },
         "web": {
