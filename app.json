@@ -40,11 +40,6 @@
             "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
             "required": true,
             "value": "false"
-       },
-        "SONG_TYPE": {
-            "description": "Choose your .song file type.(document or audio)",
-            "required": true,
-            "value": "document"
          },
         "NO_LOG": {
             "description": "Hata logu görmek istemiyorsanız true yapın. Set true if you don't want to see error log.",
