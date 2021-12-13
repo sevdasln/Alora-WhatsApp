@@ -327,7 +327,7 @@ Asena.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Gives The Button Menu'
 ` , rowId:"rowid4"}
 
 
-{title: '╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯', description: `▻\n\n
+{title: '╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯' , description: " ▻\n\n
 
 
 *⚒️ Command:* ```.vtalk```
@@ -641,7 +641,7 @@ Asena.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Gives The Button Menu'
 *⚒️ Command:* ```.whois```
 *📝 Description:* ```Displays metadata data of group or person.``` 
 
-` , rowId:"rowid5"}
+" , rowId:"rowid5"}
 
 ]
 
