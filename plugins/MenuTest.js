@@ -27,7 +27,7 @@ Asena.addCommand({ pattern: 'MENU', fromMe: true, desc: 'Gives The Button Menu'
 
 
    const rows = [
- {title: '⚒️🌹 𝖠𝖫𝖮𝖱𝖠 𝖯𝖱𝖮 𝖳𝖮𝖮𝖫𝖲🌹⚒️', description: "▻▻▻▻▻▻\n\n\n
+ {title: '⚒️🌹 𝖠𝖫𝖮𝖱𝖠 𝖯𝖱𝖮 𝖳𝖮𝖮𝖫𝖲🌹⚒️', description: `▻▻▻▻▻▻\n\n\n
 
 ░░░░░░░░░░░░░░░░░░░░░░░⚒️🌹 𝖠𝖫𝖮𝖱𝖠 𝖯𝖱𝖮 𝖳𝖮𝖮𝖫𝖲🌹⚒️░░░░░░░░░░░░░░░░░░░░░░░
 
@@ -99,65 +99,68 @@ Asena.addCommand({ pattern: 'MENU', fromMe: true, desc: 'Gives The Button Menu'
 🌹Desc: 🇬🇧 Converts the histogram of sound to video.
 
 ⚒️Usage: *.volumeaudio*
-🌹Desc: 🇬🇧 Converts the decibel value of the sound into video.
+🌹Desc:  Converts the decibel value of the sound into video.
 
 ⚒️Usage: *.cqtaudio*
-🌹Desc: 🇬🇧 Converts the CQT value of audio to video.
+🌹Desc:  Converts the CQT value of audio to video.
 
 ⚒️Usage: *.mp3eq*
-🌹Desc: 🇬🇧 Adjusts the sound to a crystal clear level.
+🌹Desc:  Adjusts the sound to a crystal clear level.
 
 ⚒️Usage: *.mp3crusher*
-🌹Desc: 🇬🇧 Distorts the sound, makes ridiculous.
+🌹Desc:  Distorts the sound, makes ridiculous.
 
 ⚒️Usage: *.mp3reverse*
-🌹Desc: 🇬🇧 Plays the sound in reverse.
+🌹Desc:  Plays the sound in reverse.
 
 ⚒️Usage: *.mp3pitch*
-🌹Desc: 🇬🇧 Makes the sound thinner and faster.
+🌹Desc:  Makes the sound thinner and faster.
 
 ⚒️Usage *.mp3low*
-🌹Desc: 🇬🇧 Makes the sound deep and slower.
+🌹Desc:  Makes the sound deep and slower.
 
 ⚒️Usage: *.x2mp3*
-🌹Desc: 🇬🇧 Makes the sound twice as fast.
+🌹Desc:  Makes the sound twice as fast.
 
 ⚒️Usage: *.mp3volume*
-🌹Desc: 🇬🇧 Increase sound level so much.
+🌹Desc:  Increase sound level so much.
 
 ⚒️Usage: *.bwimage*
-🌹Desc: 🇬🇧 Applies a monochrome effect to image.
+🌹Desc:  Applies a monochrome effect to image.
 
 ⚒️Usage: *.vintageimage*
-🌹Desc: 🇬🇧 Applies a vinatge effect to video.
+🌹Desc:  Applies a vinatge effect to video.
 
 ⚒️Usage: *.edgeimage*
-🌹Desc:🇬🇧 Applies a edge effect to the photo.
+🌹Desc: Applies a edge effect to the photo.
 
 ⚒️Usage: *.enhanceimage*
-🌹Desc:🇬🇧 Makes the photo clearer.
+🌹Desc: Makes the photo clearer.
 
 ⚒️Usage: *.blurimage*
-🌹Desc : 🇬🇧 Blurs the background of the photo.
+🌹Desc :  Blurs the background of the photo.
 
 ⚒️Usage: *.grenimage*
-🌹Desc: 🇬🇧 Applies grain effect to the photo.
+🌹Desc:  Applies grain effect to the photo.
 
 ⚒️Usage: *.negativeimage*
-🌹Desc: 🇬🇧 Applies a negative color filter to the photo.
+🌹Desc:  Applies a negative color filter to the photo.
 
 ⚒️Usage: *.rainbowimage*
-🌹Desc: 🇬🇧 Applies rainbow effect to the photo.
+🌹Desc: Applies rainbow effect to the photo.
 
 ⚒️Usage: *.colorimage*
-🌹Desc: 🇬🇧 It makes the colors of the photo more vivid and attractive.
+🌹Desc: It makes the colors of the photo more vivid and attractive.
 
 ⚒️Usage: *.artimage*
-🌹Desc: 🇬🇧 Applies a art effect to the photo.", rowId:"rowId1"},
+🌹Desc:  Applies a art effect to the photo 
+
+
+` , rowId:"rowId1"},
  
 
 
-{title: '🌸👸 𝖠𝖫𝖮𝖱𝖠 𝖫𝖮𝖦𝖮 𝖬𝖠𝖪𝖤𝖱 🌸👸', description: "▻▻▻▻▻▻▻\n\n\n
+{title: '🌸👸 𝖠𝖫𝖮𝖱𝖠 𝖫𝖮𝖦𝖮 𝖬𝖠𝖪𝖤𝖱 🌸👸', description: `▻▻▻▻▻▻▻\n\n\n
 
 ░░░░░░░░░░░░░░░░░░░░░░░🌸👸 𝖠𝖫𝖮𝖱𝖠 𝖫𝖮𝖦𝖮 𝖬𝖠𝖪𝖤𝖱 🌸👸░░░░░░░░░░░░░░░░░░░░░░░
 
@@ -166,7 +169,7 @@ Asena.addCommand({ pattern: 'MENU', fromMe: true, desc: 'Gives The Button Menu'
 
 👸Usage: *.pornhub*
 🌸Desc: එය සැපය ඇති text කළු පැහැති පෙනුම රූපයක් යවයි.
-ඔබ විසින් */* මගින් වෙන් කර ඇති ශීර්ෂය සහ උපසිරැසි අනුපිළිවෙලට ඇතුළත් කළ යුතුය!.
+ඔබ විසින් * මගින් වෙන් කර ඇති ශීර්ෂය සහ උපසිරැසි අනුපිළිවෙලට ඇතුළත් කළ යුතුය!.
 
 👸Usage: *.sandwriting*🌸Desc: එය සපයා ඇති පෙළෙහි වැලි රූපයක් යවයි.
 
@@ -184,7 +187,7 @@ Asena.addCommand({ pattern: 'MENU', fromMe: true, desc: 'Gives The Button Menu'
 
 👸Usage: *.sparkling*
 🌸Desc: පාඨය දීප්තිමත් තේමා රූපයක් බවට පරිවර්තනය කරයි
-ඔබ විසින් */* මගින් වෙන් කර ඇති ශීර්ෂය සහ උපමාතෘකාව අනුපිළිවෙලට ඇතුළත් කළ යුතුය!
+ඔබ විසිනු මගින් වෙන් කර ඇති ශීර්ෂය සහ උපමාතෘකාව අනුපිළිවෙලට ඇතුළත් කළ යුතුය!
 
 👸Usage: *.watercolour*
 🌸Desc: පාඨය ජල වර්ණ තේමා රූපයක් බවට පරිවර්තනය කරයි.
@@ -237,10 +240,11 @@ Asena.addCommand({ pattern: 'MENU', fromMe: true, desc: 'Gives The Button Menu'
 👸Usage: *.lovemsg*
 🌸Desc:එය ඔබට ආදරයකතා logo සකසයි.
 
-*Copyright © 2021 | ALORA V2🎻*", rowId:"rowid2"},
+*Copyright © 2021 | ALORA V2🎻*
+` , rowId:"rowid2"},
 
 
-{title: '🌹📝𝖦𝖱𝖮𝖴𝖯 𝖲𝖤𝖳𝖳𝖨𝖭𝖦𝖲📝🌹', description: "▻▻▻▻▻▻▻▻\n\n\n
+{title: '🌹📝𝖦𝖱𝖮𝖴𝖯 𝖲𝖤𝖳𝖳𝖨𝖭𝖦𝖲📝🌹', description: `▻▻▻▻▻▻▻▻\n\n\n
 ░░░░░░░░░░░░░░░░░░░░░░░📝🌹 𝖦𝖱𝖮𝖴𝖯 𝖲𝖤𝖳𝖳𝖨𝖭𝖦𝖲 🌹📝░░░░░░░░░░░░░░░░░░░░░░░
 
 🧰 *𝖢𝗈𝗆𝗆𝖺𝗇𝖽:*  .ban
@@ -325,7 +329,8 @@ Asena.addCommand({ pattern: 'MENU', fromMe: true, desc: 'Gives The Button Menu'
 *🔅𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇:* 𝖴𝗇𝖻𝗅𝗈𝗄𝗌 𝗍𝗁𝖾 𝗎𝗌𝖾𝗋
 
 *📱C𝗈𝗆𝗆𝖺𝗇𝖽:*  .𝗃𝗂𝖽 
-*🔅𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇:*  𝖦𝗂𝗏𝖾𝗌 𝗍𝗁𝖾 𝖼𝗁𝖺𝗍𝗌 𝗃𝗂𝖽" , rowId:"rowid4"}
+*🔅𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇:*  𝖦𝗂𝗏𝖾𝗌 𝗍𝗁𝖾 𝖼𝗁𝖺𝗍𝗌 𝗃𝗂𝖽
+` , rowId:"rowid4"}
 ]
 
 const sections = [{title: "Section 1", rows: rows}]
