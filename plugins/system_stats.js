@@ -43,8 +43,8 @@ const btn = {
     }
     else {
         const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '📩Version'}, type: 1},//Hello Bro.This is free to edit. just let me know 😃
-  {buttonId: 'MNU', buttonText: {displayText: '📱SystemStats'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '.📩Version'}, type: 1},//Hello Bro.This is free to edit. just let me know 😃
+  {buttonId: 'MNU', buttonText: {displayText: '.📱SystemStats'}, type: 1},
   ]
 const btn = {
    // imageMessage: 'https://i.ibb.co/J2rwPPj/20211107-201343.jpg',
@@ -99,8 +99,8 @@ else if (Config.WORKTYPE == 'public') {
         if (Config.ALIVEMSG == 'default') {
             
             const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '📩Version'}, type: 1},
-  {buttonId: 'MNU', buttonText: {displayText: '📱SystemStats'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '.📩Version'}, type: 1},
+  {buttonId: 'MNU', buttonText: {displayText: '.📱SystemStats'}, type: 1},
  ]
 
 const btn = {
@@ -134,8 +134,8 @@ if (Config.WORKTYPE == 'private') {
         if (Config.ALIVEMSG == 'default') {
             
             const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '📩Version'}, type: 1},//Hello Bro. this is free to edit.Just let me know it 🤗
-  {buttonId: 'MNU', buttonText: {displayText: '📱SystemStats'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '.📩Version'}, type: 1},//Hello Bro. this is free to edit.Just let me know it 🤗
+  {buttonId: 'MNU', buttonText: {displayText: '.📱SystemStats'}, type: 1},
  ]
 
 const btn = {
@@ -157,8 +157,8 @@ const btn = {
     }
     else {
         const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '📩Version'}, type: 1},//Hello Bro.This is free to edit. just let me know 😃
-  {buttonId: 'MNU', buttonText: {displayText: '📱SystemStats'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '.📩Version'}, type: 1},//Hello Bro.This is free to edit. just let me know 😃
+  {buttonId: 'MNU', buttonText: {displayText: '.📱SystemStats'}, type: 1},
   ]
 const btn = {
    // imageMessage: 'https://i.ibb.co/J2rwPPj/20211107-201343.jpg',
@@ -213,8 +213,8 @@ else if (Config.WORKTYPE == 'public') {
         if (Config.ALIVEMSG == 'default') {
             
             const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '📩Version'}, type: 1},
-  {buttonId: 'MNU', buttonText: {displayText: '📱SystemStats'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '.📩Version'}, type: 1},
+  {buttonId: 'MNU', buttonText: {displayText: '.📱SystemStats'}, type: 1},
  ]
 
 const btn = {
@@ -242,8 +242,8 @@ const btn = {
     }
     else {
         const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '📩Version'}, type: 1},
-  {buttonId: 'MEN', buttonText: {displayText: '📱SystemStats'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '.📩Version'}, type: 1},
+  {buttonId: 'MEN', buttonText: {displayText: '.📱SystemStats'}, type: 1},
   ]
 const btn = {
    // imageMessage: 'https://i.ibb.co/J2rwPPj/20211107-201343.jpg',
@@ -331,8 +331,8 @@ if (Config.WORKTYPE == 'private') {
         if (Config.ALIVEMSG == 'default') {
             
             const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '📩Version'}, type: 1},//Hello Bro. this is free to edit.Just let me know it 🤗
-  {buttonId: 'MNU', buttonText: {displayText: '📱SystemStats'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '.📩Version'}, type: 1},//Hello Bro. this is free to edit.Just let me know it 🤗
+  {buttonId: 'MNU', buttonText: {displayText: '.📱SystemStats'}, type: 1},
  ]
 
 const btn = {
@@ -354,8 +354,8 @@ const btn = {
     }
     else {
         const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '📩Version'}, type: 1},//Hello Bro.This is free to edit. just let me know 😃
-  {buttonId: 'MNU', buttonText: {displayText: '📱SystemStats'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '.📩Version'}, type: 1},//Hello Bro.This is free to edit. just let me know 😃
+  {buttonId: 'MNU', buttonText: {displayText: '.📱SystemStats'}, type: 1},
   ]
 const btn = {
    // imageMessage: 'https://i.ibb.co/J2rwPPj/20211107-201343.jpg',
@@ -506,8 +506,8 @@ const btn = {
     }
     else {
         const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '📩Version'}, type: 1},
-  {buttonId: 'MEN', buttonText: {displayText: '📱SystemStats'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '.📩Version'}, type: 1},
+  {buttonId: 'MEN', buttonText: {displayText: '.📱SystemStats'}, type: 1},
   ]
 const btn = {
    // imageMessage: 'https://i.ibb.co/J2rwPPj/20211107-201343.jpg',
