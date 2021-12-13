@@ -337,6 +337,7 @@ const button = {
  listType: 1
 }
 
-const sendMsg = await conn.sendMessage(id, button, MessageType.listMessage)
+await message.client.sendMessage(message.jid, button, MessageType.listMessage)
+    
 
 })); 
