@@ -51,8 +51,8 @@ const btn = {
     }
     else {
         const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '.Version'}, type: 1},//Hello Bro.This is free to edit. just let me know 😃
-  {buttonId: 'MNU', buttonText: {displayText: '.SystemStats'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '.version'}, type: 1},//Hello Bro.This is free to edit. just let me know 😃
+  {buttonId: 'MNU', buttonText: {displayText: '.systemstats'}, type: 1},
   ]
 const btn = {
    // imageMessage: 'https://i.ibb.co/xY47y3L/20211210-075024.jpg',
@@ -73,7 +73,7 @@ const btn = {
      }
     }));
 
-    Asena.addCommand({pattern: 'SystemStats', fromMe: true,  deleteCommand: false,  desc: Lang.SYSD_DESC, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'systemstats', fromMe: true,  deleteCommand: false,  desc: Lang.SYSD_DESC, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '393475528094-1415817281@g.us') {
 
@@ -107,8 +107,8 @@ else if (Config.WORKTYPE == 'public') {
         if (Config.ALIVEMSG == 'default') {
             
             const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '.Version'}, type: 1},
-  {buttonId: 'MNU', buttonText: {displayText: '.SystemStats'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '.version'}, type: 1},
+  {buttonId: 'MNU', buttonText: {displayText: '.systemstats'}, type: 1},
  ]
 
 const btn = {
@@ -136,8 +136,8 @@ const btn = {
     }
     else {
         const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '.Version'}, type: 1},
-  {buttonId: 'MEN', buttonText: {displayText: '.SystemStats'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '.version'}, type: 1},
+  {buttonId: 'MEN', buttonText: {displayText: '.systemstats'}, type: 1},
   ]
 const btn = {
    // imageMessage: 'https://i.ibb.co/xY47y3L/20211210-075024.jpg',
@@ -164,7 +164,7 @@ const btn = {
      }
     }));
 
-    Asena.addCommand({pattern: 'SystemStats', fromMe: true,  deleteCommand: false,  desc: Lang.SYSD_DESC, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'systemstats', fromMe: true,  deleteCommand: false,  desc: Lang.SYSD_DESC, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '393475528094-1415817281@g.us') {
 
@@ -177,7 +177,7 @@ const btn = {
         );
     }));
 
-    Asena.addCommand({pattern: 'Version', fromMe: false, desc: Lang.BOT_V}, (async (message, match) => {    
+    Asena.addCommand({pattern: 'version', fromMe: false, desc: Lang.BOT_V}, (async (message, match) => {    
     
         await message.client.sendMessage(message.jid, 
                 `*🌹𝖰𝗎𝖾𝖾𝗇 𝖠𝗅𝗈𝗋𝖺 𝖵2*\n\n` + 
