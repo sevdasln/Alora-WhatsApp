@@ -329,7 +329,8 @@ Asena.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Gives The Button Menu'
 ` , rowId:"rowid4"},
 
 {title: `👸🧭NEW LOGO LIST🧭👸`, description: ` ▻\n\n
-❮Will be added soon...
+🔰❮Will be added soon...❯
+✅❮Check the Main Command = .a2maker ❯
 
 ` , rowId:"rowid5"}
 
