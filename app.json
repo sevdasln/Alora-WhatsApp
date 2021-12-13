@@ -88,7 +88,7 @@
         "WORK_TYPE": {
             "description": "Alora Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot. We dont added buttons for private mod. Buttons only avaible for public mod.",
             "required": true,
-            "value": "private"
+            "value": "public"
         },
         "HEROKU_APP_NAME": {
             "description": " Heroku APP Name.",
