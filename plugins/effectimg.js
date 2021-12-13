@@ -584,7 +584,7 @@ else if (Config.WORKTYPE == 'public') {
     
     Asena.addCommand({pattern: 'about', fromMe: false, desc: EFFECT_DESC}, (async (message, match) => {    
 
-    await message.sendMessage('🎩WELCOME TO ALORA-V2🎻\n\n❖Alora V2 Is still developing.\n\n❖Also Our Effectimg commands are temporary down. SORRY🎻');
+    await message.sendMessage('👸WELCOME TO ALORA BOT\n\n❖Finaally I have added Buttons.\n\n❖Special Thanks to\n┌─────────\n├⛦ᴍᴇꜱᴀɴᴅᴜ\n├⛦ᴛʜɪꜱᴀʟ\n├⛦ᴘʜᴀᴛᴛɪᴄᴜꜱᴛɪᴄᴄʏ\n├⛦ʏᴜꜱᴜꜰ ᴜꜱᴛᴀ\n│\n└───────────►◅\n👸ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ᴀʟᴏʀᴀ💚');
    
 
 
