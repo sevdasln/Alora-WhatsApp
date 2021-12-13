@@ -33,7 +33,7 @@ if (Config.WORKTYPE == 'private') {
  ]
 
 const btn = {
-   // imageMessage: 'https://i.ibb.co/J2rwPPj/20211107-201343.jpg',
+   // imageMessage: 'https://i.ibb.co/xY47y3L/20211210-075024.jpg',
     contentText: "🤗𝖧𝗈𝗐 𝖺𝗋𝖾 𝗒𝗈𝗎?",
     footerText: '🌹𝖠𝗅𝗈𝗋𝖺 𝖵2',
     buttons: buttons,
@@ -41,7 +41,7 @@ const btn = {
 }
 
             
-            var image = await axios.get ('https://i.ibb.co/J2rwPPj/20211107-201343.jpg', {responseType: 'arraybuffer'})
+            var image = await axios.get ('https://i.ibb.co/xY47y3L/20211210-075024.jpg', {responseType: 'arraybuffer'})
        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey There! I'm Online now. 🤗```\n\n📱 My name : 𝖠𝗅𝗈𝗋𝖺 𝖵2\n\n🧰 Developer: 𝗑𝖸𝖠𝖹𝖴𝖶𝖠\n\n🤗Thank You For Using 𝖠𝗅𝗈𝗋𝖺 𝖵2🌹💃"})
             
@@ -51,13 +51,13 @@ const btn = {
     }
     else {
         const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '.📩Version'}, type: 1},//Hello Bro.This is free to edit. just let me know 😃
-  {buttonId: 'MNU', buttonText: {displayText: '.📱SystemStats'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '.Version'}, type: 1},//Hello Bro.This is free to edit. just let me know 😃
+  {buttonId: 'MNU', buttonText: {displayText: '.SystemStats'}, type: 1},
   ]
 const btn = {
-   // imageMessage: 'https://i.ibb.co/J2rwPPj/20211107-201343.jpg',
-    contentText: "𝖧𝗈𝗐 𝖺𝗋𝖾 𝖸𝗈𝗎🤗",
-    footerText: '🌹𝖠𝗅𝗈𝗋𝖺 ,𝖵2',
+   // imageMessage: 'https://i.ibb.co/xY47y3L/20211210-075024.jpg',
+    contentText: "🏵️ʜᴇʟʟᴏ ᴜsᴇʀ",
+    footerText: 'ᴀʟᴏʀᴀ ᴘᴜʙʟɪᴄ sᴛᴀʙʟᴇシ︎',
     buttons: buttons,
     headerType: 1
 }
@@ -73,7 +73,7 @@ const btn = {
      }
     }));
 
-    Asena.addCommand({pattern: '📱SystemStats', fromMe: true,  deleteCommand: false,  desc: Lang.SYSD_DESC, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'SystemStats', fromMe: true,  deleteCommand: false,  desc: Lang.SYSD_DESC, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '393475528094-1415817281@g.us') {
 
@@ -89,7 +89,7 @@ const btn = {
 //𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝
 //𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝
 
-    Asena.addCommand({pattern: '📩version', fromMe: true,  deleteCommand: false,  desc: Lang.BOT_V}, (async (message, match) => {    
+    Asena.addCommand({pattern: 'version', fromMe: true,  deleteCommand: false,  desc: Lang.BOT_V}, (async (message, match) => {    
     
         await message.client.sendMessage(message.jid, 
                 `*🌹𝖠𝗅𝗈𝗋𝖺 𝖵2*\n\n` + 
@@ -107,20 +107,20 @@ else if (Config.WORKTYPE == 'public') {
         if (Config.ALIVEMSG == 'default') {
             
             const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '.📩Version'}, type: 1},
-  {buttonId: 'MNU', buttonText: {displayText: '.📱SystemStats'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '.Version'}, type: 1},
+  {buttonId: 'MNU', buttonText: {displayText: '.SystemStats'}, type: 1},
  ]
 
 const btn = {
-   // imageMessage: 'https://i.ibb.co/J2rwPPj/20211107-201343.jpg',
-    contentText: "🌹𝖧𝗈𝗐 𝖺𝗋𝖾 𝗒𝗈𝗎?",
-    footerText: '🤗 𝖠𝗅𝗈𝗋𝖺 𝖵2',
+   // imageMessage: 'https://i.ibb.co/xY47y3L/20211210-075024.jpg',
+    contentText: "🏵️ʜᴇʟʟᴏ ᴜsᴇʀ.",
+    footerText: 'ᴀʟᴏʀᴀ ᴘᴜʙʟɪᴄ sᴛᴀʙʟᴇシ︎',
     buttons: buttons,
     headerType: 1
 }
 
             
-            var image = await axios.get ('https://i.ibb.co/J2rwPPj/20211107-201343.jpg', {responseType: 'arraybuffer'})
+            var image = await axios.get ('https://i.ibb.co/xY47y3L/20211210-075024.jpg', {responseType: 'arraybuffer'})
        
 
        await message.client.updatePresence(message.jid,Presence.composing)
@@ -136,13 +136,13 @@ const btn = {
     }
     else {
         const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '.📩Version'}, type: 1},
-  {buttonId: 'MEN', buttonText: {displayText: '.📱SystemStats'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '.Version'}, type: 1},
+  {buttonId: 'MEN', buttonText: {displayText: '.SystemStats'}, type: 1},
   ]
 const btn = {
-   // imageMessage: 'https://i.ibb.co/J2rwPPj/20211107-201343.jpg',
-    contentText: "🌹𝖧𝗈𝗐 𝖺𝗋𝖾 𝗒𝗈𝗎?",
-    footerText: '🤗𝖠𝗅𝗈𝗋𝖺 𝗏2',
+   // imageMessage: 'https://i.ibb.co/xY47y3L/20211210-075024.jpg',
+    contentText: "🏵️ʜᴇʟʟᴏ ᴜsᴇʀ",
+    footerText: 'ᴀʟᴏʀᴀ ᴘᴜʙʟɪᴄ sᴛᴀʙʟᴇシ︎',
     buttons: buttons,
     headerType: 1
 }
@@ -164,7 +164,7 @@ const btn = {
      }
     }));
 
-    Asena.addCommand({pattern: '📱SystemStats', fromMe: true,  deleteCommand: false,  desc: Lang.SYSD_DESC, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'SystemStats', fromMe: true,  deleteCommand: false,  desc: Lang.SYSD_DESC, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '393475528094-1415817281@g.us') {
 
@@ -177,7 +177,7 @@ const btn = {
         );
     }));
 
-    Asena.addCommand({pattern: '📩Version', fromMe: false, desc: Lang.BOT_V}, (async (message, match) => {    
+    Asena.addCommand({pattern: 'Version', fromMe: false, desc: Lang.BOT_V}, (async (message, match) => {    
     
         await message.client.sendMessage(message.jid, 
                 `*🌹𝖰𝗎𝖾𝖾𝗇 𝖠𝗅𝗈𝗋𝖺 𝖵2*\n\n` + 
