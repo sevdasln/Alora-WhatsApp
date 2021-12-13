@@ -157,7 +157,9 @@ Asena.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Gives The Button Menu'
  
 
 
-{title: '🌸👸 𝖠𝖫𝖮𝖱𝖠 𝖫𝖮𝖦𝖮 𝖬𝖠𝖪𝖤𝖱 🌸👸', description: `▻\n\n
+{title: '🌸👸 𝖫𝖮𝖦𝖮 𝖬𝖠𝖪𝖤𝖱 (OLD)🌸👸', description: `▻\n\n
+
+❮❮  *🔰Main Command - .v2maker*  ❯❯
 
 👸Usage: *.pemoji*
 🌸Desc: ඉමොජි රූපයට පරිවර්තනය කරන්න.
@@ -324,6 +326,11 @@ Asena.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Gives The Button Menu'
 
 *📱C𝗈𝗆𝗆𝖺𝗇𝖽:*  .𝗃𝗂𝖽 
 *🔅𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇:*  𝖦𝗂𝗏𝖾𝗌 𝗍𝗁𝖾 𝖼𝗁𝖺𝗍𝗌 𝗃𝗂𝖽
+` , rowId:"rowid4"}
+
+title: '👸🧭NEW LOGO LIST🧭👸', description: `▻\n\n
+❮Will be added soon...
+
 ` , rowId:"rowid4"}
 
 ]
