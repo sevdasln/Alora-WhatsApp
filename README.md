@@ -39,11 +39,11 @@ the user is responsible.
 </p>
 
 <div align="center">
-  <img src="https://i.ibb.co/xY47y3L/20211210-075024.jpg" width="250" height="200">
-  <h1>👸 ALORA BOT ✅</h1>
+  <img src="https://i.ibb.co/xY47y3L/20211210-075024.jpg" width="290" height="200">
+  <h1><font color='red'>👸 ALORA BOT ✅</font></h1>
 </div>
 <p align="center">
-    WhatsAsena project - Makes it easy and fun to use Whatsapp. Also first userbot for Whatsapp.
+   Alora project - Makes it easy and fun to use Whatsapp. Also first userbot for Whatsapp.
     <br>
         <a href="https://t.me/AloraBot">Telegram Channel</a> |
         <a href="https://t.me/AloraSupport">Telegram Group</a> |
