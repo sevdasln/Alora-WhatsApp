@@ -173,7 +173,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
 
     }));
  
-  Amazone.addCommand({ pattern: 'ff16 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+  Asena.addCommand({ pattern: 'ff16 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -183,7 +183,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
 
     }));
  
-  Amazone.addCommand({ pattern: 'ff17 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+  Asena.addCommand({ pattern: 'ff17 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -193,7 +193,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
 
     }));
  
-  Amazone.addCommand({ pattern: 'ff18 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+  Asena.addCommand({ pattern: 'ff18 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -203,7 +203,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
 
     }));
  
-  Amazone.addCommand({ pattern: 'ff19 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+  Asena.addCommand({ pattern: 'ff19 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -213,7 +213,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
 
     }));
  
-  Amazone.addCommand({ pattern: 'ff20 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+  Asena.addCommand({ pattern: 'ff20 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -223,7 +223,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
 
     }));
  
-  Amazone.addCommand({ pattern: 'ff21 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+  Asena.addCommand({ pattern: 'ff21 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -233,7 +233,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
 
     }));
  
-  Amazone.addCommand({ pattern: 'ff22 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+  Asena.addCommand({ pattern: 'ff22 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -243,7 +243,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
 
     }));
  
-  Amazone.addCommand({ pattern: 'ff23 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+  Asena.addCommand({ pattern: 'ff23 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -253,7 +253,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
 
     }));
  
-  Amazone.addCommand({ pattern: 'ff24 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+  Asena.addCommand({ pattern: 'ff24 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -263,7 +263,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
 
     }));
  
-  Amazone.addCommand({ pattern: 'ff25 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+  Asena.addCommand({ pattern: 'ff25 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -273,7 +273,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
 
     }));
  
-  Amazone.addCommand({ pattern: 'ff26 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+  Asena.addCommand({ pattern: 'ff26 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -283,7 +283,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
 
     }));
  
-  Amazone.addCommand({ pattern: 'ff27 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+  Asena.addCommand({ pattern: 'ff27 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -293,7 +293,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
 
     }));
  
-   Amazone.addCommand({ pattern: 'ff28 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff28 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -302,7 +302,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff29 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff29 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -311,7 +311,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff30 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff30 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -320,7 +320,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff31 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff31 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -329,7 +329,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff32 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff32 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -338,7 +338,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff33 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff33 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -347,7 +347,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff34 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff34 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -356,7 +356,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff35 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff35 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -365,7 +365,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff36 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff36 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -374,7 +374,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff37 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff37 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -383,7 +383,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff38 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff38 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -392,7 +392,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff39 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff39 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -401,7 +401,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff40 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff40 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -410,7 +410,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff41 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff41 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -419,7 +419,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff42 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff42 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -428,7 +428,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff43 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff43 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -437,7 +437,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff44 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff44 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -446,7 +446,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff45 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff45 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -455,7 +455,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff46 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff46 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -464,7 +464,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff47 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff47 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -473,7 +473,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff48 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff48 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -482,7 +482,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff49 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff49 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -491,7 +491,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:Config.CAPTIONS})
 
     }));
-   Amazone.addCommand({ pattern: 'ff50 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ff50 ?(.*)', fromMe: fs, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
