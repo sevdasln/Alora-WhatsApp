@@ -10,104 +10,103 @@ const axios = require('axios');
 const Config = require('../config');
 const need = "*◀type some word after command ▷"
 
-if (Config.WORKTYPE == 'private') {
+if (Config.WORKTYPE == 'public') {
    
    
-   Asena.addCommand({ pattern: 'tlpack', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'a2lpack', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
-        var ttinullimage = await axios.get(`https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://i.ibb.co/xY47y3L/20211210-075024.jpg`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  `╔══════════════════════
-║❌ 🍁*REX LOGO PACK 1*🍁 ❌
+║🧭❮ *ALORA LOGO PACK* ❯🧭
 ╠══════════════════════
 ║
-║   `+Config.CAPTION+`
 ║
 ╠═➢ 🍁Cmd: *.wel*
 ╠══➢ 📛 Dec: *Send welcome logo*
-╠═➢ 🍁 Ex: *.wel T-Rex/Hiruwa*
+╠═➢ 🧭 Ex: *.wel Alora*
 ║
 ╠═➢ 🍁 Cmd: *.bye*
 ╠══➢ 📛 Dec: *Send bye logo*
-╠═➢ 🍁Ex: *.bye T-REX/Hiruwa*
+╠═➢ 🧭Ex: *.bye Alora*
 ║
 ╠═➢ 🍁Cmd: *.marvel*
 ╠══➢ 📛 Dec: *Send marve logo*
-╠═➢ 🍁 Ex: *.marvel T-Rex/Hiruwa*
+╠═➢ 🧭 Ex: *.marvel Alora*
 ║
 ╠═➢ 🍁Cmd: *.2marvel*
 ╠══➢ 📛 Dec: *Send marvel logo*
-╠═➢ 🍁Ex: *.2marvel T-Rex/Hiruwa*
+╠═➢ 🧭Ex: *.2marvel Alora*
 ║
 ╠═➢ 🍁Cmd: *.wolf*
 ╠══➢ 📛 Dec: *Send wolf logo*
-╠═➢ 🍁Ex: *.wolf T-REX/HIRUWA*
+╠═➢ 🧭Ex: *.wolf Alora*
 ║
 ╠═➢ 🍁Cmd: *.lava*
 ╠══➢ 📛 Dec: *Send lava logo*
-╠═➢ 🍁Ex: *.lava T-REX*
+╠═➢ 🧭Ex: *.lava Alora*
 ║
 ╠═➢ 🍁Cmd: *.xmas*
 ╠══➢ 📛 Dec: *Send xmas logo*
-╠═➢ 🍁Ex: *.xmas T-Rex*
+╠═➢ 🧭Ex: *.xmas Alora*
 ║
 ╠═➢ 🍁Cmd: *.round*
 ╠══➢📛 Dec: *Send round logo*
-╠═➢ 🍁 Ex: *.round { image url }*
+╠═➢ 🧭 Ex: *.round { image url }*
 ║
 ╠═➢ 🍁Cmd: .*.quot*
 ╠══➢ 📛  Dec: *Send quote logo*
-╠═➢ 🍁 Ex: *.quot T-REX*
+╠═➢ 🧭 Ex: *.quot Alora*
 ║
 ╠═➢ 🍁Cmd: *.harta*
 ╠══➢ 📛 Dec: *Send harta logo*
-╠═➢ 🍁Ex: *.harta T-REX
+╠═➢ 🧭Ex: *.harta Alora
 ║
 ╠═➢ 🍁Cmd: *.1917*
 ╠══➢ 📛 Dec: *Send 1917 logo*
-╠═➢ 🍁Ex: *.1917 T-REX
+╠═➢ 🧭Ex: *.1917 Alora
 ║
 ╠═➢ 🍁Cmd: *.minion*
 ╠══➢ 📛 Dec: *Send minion logo*
-╠═➢ 🍁Ex: *.minion T-REX
+╠═➢ 🧭Ex: *.minion Alora
 ║
 ╠═➢ 🍁Cmd: *.holo*
 ╠══➢ 📛  Dec: *Send holo logo*
-╠═➢ 🍁 Ex: *.holo T-REX*
+╠═➢ 🧭 Ex: *.holo Alora*
 ║
 ╠═➢ 🍁Cmd: *.metalp*
 ╠══➢ 📛  Dec: *Send metalp logo*
-╠═➢ 🍁 Ex: *.metalp T-REX*
+╠═➢ 🧭 Ex: *.metalp Alora*
 ║
 ╠═➢ 🍁Cmd: *.avengers*
 ╠══➢ 📛  Dec: *Send avengers logo*
-╠═➢ 🍁 Ex: *.avengers T-REX*
+╠═➢ 🧭 Ex: *.avengers Alora*
 ║
 ╠═➢ 🍁Cmd: *.halloween*
 ╠══➢ 📛  Dec: *Send halloween logo*
-╠═➢ 🍁 Ex: *.halloween T-REX
+╠═➢ 🧭 Ex: *.halloween Alora
 ║
 ╠═➢ 🍁Cmd: *.horror*
 ╠══➢ 📛  Dec: *Send horror logo*
-╠═➢ 🍁 Ex: *.horror T-REX*
+╠═➢ 🧭 Ex: *.horror Alora*
 ║
 ╠═➢ 🍁Cmd: *.glossyc*
 ╠══➢ 📛  Dec: *Send glossy logo*
-╠═➢ 🍁 Ex: *.glossyc T-REX*
+╠═➢ 🧭 Ex: *.glossyc Alora*
 ║
 ╠═➢ 🍁Cmd: *.deluxe*
 ╠══➢ 📛  Dec: *Send deluxe logo*
-╠═➢ 🍁 Ex: *.deluxe T-REX*
+╠═➢ 🧭 Ex: *.deluxe Alora*
 ║
-╠═➢ 🍁Cmd: *.glossyb*
+╠═➢ 🧭Cmd: *.glossyb*
 ╠══➢ 📛  Dec: *Send glossy logo*
-╠═➢ 🍁 Ex: *.glossyb T-REX*
+╠═➢ 🧭 Ex: *.glossyb Alora*
 ║
-╠═➢ 🍁Cmd: *.joker*
+╠═➢ 🧭Cmd: *.joker*
 ╠══➢ 📛  Dec: *Send joker logo*
-╠═➢ 🍁 Ex: *.joker T-REX*
+╠═➢ 🧭 Ex: *.joker Alora*
 ║
-║      ╔═🍁 T-REX BOT 🍁═╗
+║      ╔═🛠 ALORA BOT 🛠═╗
 ║        ╚ ENJOY WITH US ╝
 ╚══════════════════════`,quoted: message.data})
 
