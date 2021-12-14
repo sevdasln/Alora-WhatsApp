@@ -1,9 +1,9 @@
-const Sophia = require('../events');
+const Asena = require('../events');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
 const Config = require('../config');
-const need = "*type some word after command 🍁"
+const need = "*type some word after command "
 
 if (Config.WORKTYPE == 'public') {
    
