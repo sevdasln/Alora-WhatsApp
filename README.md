@@ -43,7 +43,7 @@ the user is responsible.
   <h1><font color='red'>👸 ALORA BOT ✅</font></h1>
 </div>
 <p align="center">
-   Alora project - Makes it easy and fun to use Whatsapp. Also first userbot for Whatsapp.
+   Alora project - Makes it easy and fun to use Whatsapp..
     <br>
         <a href="https://t.me/AloraBot">Telegram Channel</a> |
         <a href="https://t.me/AloraSupport">Telegram Group</a> |
