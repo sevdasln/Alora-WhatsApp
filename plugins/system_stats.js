@@ -43,7 +43,7 @@ const btn = {
             
             var image = await axios.get ('https://i.ibb.co/xY47y3L/20211210-075024.jpg', {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey There! I'm Online now. 🤗```\n\n📱 My name : 𝖠𝗅𝗈𝗋𝖺 𝖵2\n\n🧰 Developer: 𝗑𝖸𝖠𝖹𝖴𝖶𝖠\n\n🤗Thank You For Using 𝖠𝗅𝗈𝗋𝖺 𝖵2🌹💃"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "╭──────────◅\n│\n│🎧ʜᴇʟʟᴏ ᴜꜱᴇʀ\n│╭──────────────╮\n│👸Ｉ ＡＭ A L I V E  \n👸  │╰──────────────╯\n│\n├►ɪ ᴀᴍ ᴀʟᴏʀᴀ ʙᴏᴛ\n│\n├▻ᴠᴇʀꜱɪᴏɴ - ᴡɪᴛʜ ʙᴜᴛᴛᴏɴꜱ\n│\n├▻ᴅᴇᴠᴇʟᴏᴘᴇʀ - xY̷A̷Z̷U̷W̷A̷\n│\n├▻ᴍᴇɴᴜ ᴄᴏᴍᴍᴀɴᴅ - .alora\n│\n│💞ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ👸\n│\n╰────────────▻\n\nـــ٨ـہہـ♡ـ٨ـہـ"})
             
         await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
 
@@ -113,7 +113,7 @@ else if (Config.WORKTYPE == 'public') {
 
 const btn = {
    // imageMessage: 'https://i.ibb.co/xY47y3L/20211210-075024.jpg',
-    contentText: "🏵️ʜᴇʟʟᴏ ᴜsᴇʀ.",
+    contentText: "",
     footerText: 'ᴀʟᴏʀᴀ ᴘᴜʙʟɪᴄ sᴛᴀʙʟᴇシ︎',
     buttons: buttons,
     headerType: 1
@@ -128,7 +128,7 @@ const btn = {
         await new Promise(r => setTimeout(r, 1000));
 
  
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🏅Hey There! I'm Online now.🤗```\n\n🌹 My name : 𝖠𝖫𝖮𝖱𝖠 𝖵2\n\n📝 Developer: 𝗑𝖸𝖠𝖹𝖴𝖶𝖠\n\n⚒️Thank You For Using 𝖠𝗅𝗈𝗋𝖺 𝖵2"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "╭──────────◅\n│\n│🎧ʜᴇʟʟᴏ ᴜꜱᴇʀ\n│╭──────────────╮\n│👸Ｉ ＡＭ A L I V E  \n👸  │╰──────────────╯\n│\n├►ɪ ᴀᴍ ᴀʟᴏʀᴀ ʙᴏᴛ\n│\n├▻ᴠᴇʀꜱɪᴏɴ - ᴡɪᴛʜ ʙᴜᴛᴛᴏɴꜱ\n│\n├▻ᴅᴇᴠᴇʟᴏᴘᴇʀ - xY̷A̷Z̷U̷W̷A̷\n│\n├▻ᴍᴇɴᴜ ᴄᴏᴍᴍᴀɴᴅ - .alora\n│\n│💞ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ👸\n│\n╰────────────▻\n\nـــ٨ـہہـ♡ـ٨ـہـ"})
             
         await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
 
