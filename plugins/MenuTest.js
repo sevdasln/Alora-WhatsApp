@@ -515,6 +515,115 @@ Asena.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Gives The Button Menu'
 
 ` , rowId:"rowid7"},
 
+{title: '📸👸ALORA LOGO PACK 2👸📸', description: `▻\n\n
+
+‎╮╰╮╮▕╲╰╮╭╯╱▏╭╭╭╭──🅛
+╰╰╮╰╭╱▔▔▔▔╲╮╯╭╯───🅞
+┏━┓┏┫╭▅╲╱▅╮┣┓╭║║║─🅖
+╰┳╯╰┫┗━╭╮━┛┣╯╯╚╬╝─🅞
+╭┻╮╱╰╮╰━━╯╭╯╲┊  ║─🅿
+╰┳┫▔╲╰┳━━┳╯╱▔┊  ║─🅰
+┈┃╰━━╲▕╲╱▏╱━━━┬╨╮─🅲
+┈╰━━╮┊▕╱╲▏┊╭━━┴╥╯─🅺
+
+┌───────✺✺✺✺✺✺✺────────✦
+│👸✮❮ *ALORA LOGO PACK* ❯✮👸
+├───────✮✮✮✮✮✮────────✺
+│❗ᴘʟᴇᴀꜱᴇ ᴅᴏɴᴛ ʀᴇᴘᴇᴀᴛ ꜱᴀᴍᴇ ᴄᴏᴅᴇ
+│  ᴀᴛ ꜱᴀᴍᴇ ᴛɪᴍᴇ
+│
+├─➢ ❒Cmd: *.wel*
+├──➢ ✦ Dec: *ᴡᴇʟᴄᴏᴍᴇ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✮ Ex: *.wel Alora*
+│
+├─➢ ❒ Cmd: *.bye*
+├──➢ ✦ Dec: *ʙʏᴇ ꜱᴛʏʟᴇᴅ ʟᴏɢᴏ*
+├─➢ ✮Ex: *.bye Alora*
+│
+├─➢ ❒Cmd: *.marvel*
+├──➢ ✦ Dec: *ᴍᴀʀᴠᴇʟ ꜱᴛʏʟᴇᴅ ʟᴏɢᴏ1*
+├─➢ ✮ Ex: *.marvel Alora*
+│
+├─➢ ❒Cmd: *.2marvel*
+├──➢ ✦ Dec: *ᴍᴀʀᴠᴇʟ ꜱᴛʏʟᴇ ʟᴏɢᴏ2*
+├─➢ ✪Ex: *.2marvel Alora*
+│
+├─➢ ❒Cmd: *.wolf*
+├──➢ ✦ Dec: *ᴡᴏʟꜰ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✪Ex: *.wolf Alora*
+│
+├─➢ ❒Cmd: *.lava*
+├─➢ ✦ Dec: *ʟᴀᴠᴀ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✪Ex: *.lava Alora*
+│
+├─➢ ❒Cmd: *.xmas*
+├──➢ ✦ Dec: *xᴍᴀꜱ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✪Ex: *.xmas Alora*
+│
+├─➢ ❒Cmd: *.round*
+├──➢✦ Dec: *ʀᴏᴜɴᴅ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.round { image url }*
+│
+├─➢ ❒Cmd: .*.quot*
+├──➢ ✦  Dec: *ǫᴜᴏᴛᴇᴅ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.quot Alora*
+│
+├─➢ ❒Cmd: *.harta*
+├──➢ ✦ Dec: *ʜᴀʀᴛᴀ ꜱᴛʏʟᴇᴅ ʟᴏɢᴏ*
+├─➢ ✪Ex: *.harta Alora
+│
+├─➢ ❒Cmd: *.1917*
+├──➢ ✦ Dec: *ᴏʟᴅ ꜱᴛʏʟᴇᴅ ʟᴏɢᴏ*
+├─➢ ✪Ex: *.1917 Alora
+│
+├─➢ ❒Cmd: *.minion*
+├──➢ ✦ Dec: *ᴍɪɴɪᴏɴ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✪Ex: *.minion Alora
+│
+├─➢ ❒Cmd: *.holo*
+├──➢ ✦  Dec: *ʜᴏʟᴏ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.holo Alora*
+│
+├─➢ ❒Cmd: *.metalp*
+├──➢ ✦  Dec: *ᴍᴇᴛᴀʟ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.metalp Alora*
+│
+├─➢ ❒Cmd: *.avengers*
+├──➢ ✦  Dec: *ᴀᴠᴇɴɢᴇʀꜱ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.avengers Alora*
+│
+├─➢ ❒Cmd: *.halloween*
+├──➢ ✦  Dec: *ꜱᴇɴᴅ ʜᴀʟʟᴏᴡᴇᴇɴ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.halloween Alora
+│
+├─➢ ❒Cmd: *.horror*
+├──➢ ✦  Dec: *ꜱᴇɴᴅ ʜᴏʀʀᴏʀ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.horror Alora*
+│
+├─➢ ❒Cmd: *.glossyc*
+├──➢ ✦  Dec: *ꜱᴇɴᴅ ɢʟᴏꜱꜱʏ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.glossyc Alora*
+│
+├─➢ ❒Cmd: *.deluxe*
+├──➢ ✦  Dec: *ꜱᴇɴᴅ ᴅᴇʟᴜxᴇ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.deluxe Alora*
+│
+├─➢ ❒Cmd: *.glossyb*
+├──➢ ✦  Dec: *ꜱᴇɴᴅ ɢʟᴏꜱꜱʏ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.glossyb Alora*
+│
+├─➢ ❒Cmd: *.joker*
+├──➢ ✦  Dec: *ꜱᴇɴᴅ ᴊᴏᴋᴇʀ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.joker Alora*
+│
+│✜✜✜✜✜✜✜✜✜✜✜✜✜✜✜✜✜✜✜    
+│❮✮✮ᖘꂦꅐꏂꋪꏂꀷ ꌃꌩ ꎭꌚ ꍏ꒒ꂦꋪꍏ✮✮❯
+│❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂       
+└───────────────────────▷❯
+
+` , rowId:"rowid8"},
+
+
 ]
 
 const sections = [{title: "Section 1", rows: rows}]
