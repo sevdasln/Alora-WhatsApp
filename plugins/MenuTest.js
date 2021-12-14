@@ -261,7 +261,9 @@ Asena.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Gives The Button Menu'
 *🌹Description:*  𝖲𝗂𝗅𝖾𝗇𝖼𝖾 𝗍𝗁𝖾 𝗀𝗋𝗈𝗎𝗉 (𝖮𝗇𝗅𝗒 𝖺𝖽𝗆𝗂𝗇𝗌 𝖼𝖺𝗇 𝗆𝖾𝗌𝗌𝖺𝗀𝖾)
 
 *🧰𝖢𝗈𝗆𝗆𝖺𝗆𝖽:* .𝗎𝗇𝗆𝗎𝗍𝖾
-*🌹Description:* 𝖠𝗅𝗅𝗈𝗐𝗌 𝖬𝖾𝗆𝖻𝖾𝗋𝖽 𝗍𝗈 𝗌𝖾𝗇𝖽 𝗆𝖾𝗌𝗌𝖺𝗀𝖾𝗌", rowId:"rowid3"},
+*🌹Description:* 𝖠𝗅𝗅𝗈𝗐𝗌 𝖬𝖾𝗆𝖻𝖾𝗋𝖽 𝗍𝗈 𝗌𝖾𝗇𝖽 𝗆𝖾𝗌𝗌𝖺𝗀𝖾𝗌
+
+", rowId:"rowid3"},
 
  
 {title: '📱🔅 𝖮𝖶𝖭𝖤𝖱 𝖮𝖭𝖫𝖸,𝖲𝖴𝖣𝖮🔅📱', description: "▻\n\n
@@ -332,7 +334,7 @@ Asena.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Gives The Button Menu'
 🔰❮Will be added soon...❯
 ✅❮Check the Main Command = .a2maker ❯
 
-` , rowId:"rowid5"}
+` , rowId:"rowid5"},
 
 {title: '┭─⛦FF LOGO MAKER⛦┱─', description: `▻\n\n
 
@@ -414,7 +416,7 @@ Asena.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Gives The Button Menu'
 
 
 
-` , rowId:"rowid6"}
+` , rowId:"rowid6"},
 
 ]
 
