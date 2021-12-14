@@ -84,7 +84,7 @@ async function whatsAsena () {
 
     conn.on ('credentials-updated', async () => {
         console.log(
-            chalk.blueBright.italic('▷ Login information updated!👿')
+            chalk.blueBright.italic('▷ Login information updated!🤗')
         );
 
         const authInfo = conn.base64EncodedAuthInfo();
@@ -98,17 +98,17 @@ async function whatsAsena () {
     conn.on('connecting', async () => {
         console.log(`${chalk.green.bold('👸Alora')}${chalk.blue.bold('Bot👸')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
-${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
+${chalk.blue.italic('🧭 Connecting to WhatsApp...▶')}`);
     });
     
 
     conn.on('open', async () => {
         console.log(
-            chalk.green.bold('👿  Login successful!▶')
+            chalk.green.bold('✅  Login successful!▶')
         );
 
         console.log(
-            chalk.blueBright.italic('🚀Installing external plugins...▶')
+            chalk.blueBright.italic('🦹‍♂️nstalling external plugins...▶')
         );
 
         var plugins = await plugindb.PluginDB.findAll();
@@ -124,7 +124,7 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
         });
 
         console.log(
-            chalk.blueBright.italic('🤖Installing plugins...')
+            chalk.blueBright.italic('🧞‍♀️Installing plugins...')
         );
 
         fs.readdirSync('./plugins').forEach(plugin => {
@@ -134,7 +134,7 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
         });
 // ════════════════════PLUGGINS SUCCESS🔰🔰🔰
         console.log(
-            chalk.green.bold('👸ALORA PUBLIC WORKING!▷')
+            chalk.green.bold('👸ALORA PUBLIC WORKING!➘')
        );
         
          if (config.LANG == 'EN') {
