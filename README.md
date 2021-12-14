@@ -45,10 +45,10 @@ the user is responsible.
 <p align="center">
    Alora project - Makes it easy and fun to use Whatsapp..
     <br>
-        <a href="https://t.me/AloraBot">Telegram Channel</a> |
-        <a href="https://t.me/AloraSupport">Telegram Group</a> |
-        <a href="https://t.me/AloraSupport">New Support Group</a> |
-        <a href="https://t.me/unofficialplugin">New Plugin Channel</a> |
+        <a href="https://t.me/AloraBotNews">◀▷Telegram Channel◀▷</a> |
+        <a href="https://t.me/AloraBotSupport">◁▶Telegram Group◀▷</a> |
+        <a href="https://t.me/AloraBotSupport">◀▷New Support Group◁▶</a> |
+        <a href="https://t.me/unofficialplugin">◀▷New Plugin Channel◁▶</a> |
     <br>
 </p>
 
