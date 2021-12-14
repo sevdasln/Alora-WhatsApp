@@ -17,98 +17,99 @@ if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://i.ibb.co/xY47y3L/20211210-075024.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  `╔══════════════════════
-║🧭❮ *ALORA LOGO PACK* ❯🧭
-╠══════════════════════
-║
-║
-╠═➢ 🍁Cmd: *.wel*
-╠══➢ 📛 Dec: *Send welcome logo*
-╠═➢ 🧭 Ex: *.wel Alora*
-║
-╠═➢ 🍁 Cmd: *.bye*
-╠══➢ 📛 Dec: *Send bye logo*
-╠═➢ 🧭Ex: *.bye Alora*
-║
-╠═➢ 🍁Cmd: *.marvel*
-╠══➢ 📛 Dec: *Send marve logo*
-╠═➢ 🧭 Ex: *.marvel Alora*
-║
-╠═➢ 🍁Cmd: *.2marvel*
-╠══➢ 📛 Dec: *Send marvel logo*
-╠═➢ 🧭Ex: *.2marvel Alora*
-║
-╠═➢ 🍁Cmd: *.wolf*
-╠══➢ 📛 Dec: *Send wolf logo*
-╠═➢ 🧭Ex: *.wolf Alora*
-║
-╠═➢ 🍁Cmd: *.lava*
-╠══➢ 📛 Dec: *Send lava logo*
-╠═➢ 🧭Ex: *.lava Alora*
-║
-╠═➢ 🍁Cmd: *.xmas*
-╠══➢ 📛 Dec: *Send xmas logo*
-╠═➢ 🧭Ex: *.xmas Alora*
-║
-╠═➢ 🍁Cmd: *.round*
-╠══➢📛 Dec: *Send round logo*
-╠═➢ 🧭 Ex: *.round { image url }*
-║
-╠═➢ 🍁Cmd: .*.quot*
-╠══➢ 📛  Dec: *Send quote logo*
-╠═➢ 🧭 Ex: *.quot Alora*
-║
-╠═➢ 🍁Cmd: *.harta*
-╠══➢ 📛 Dec: *Send harta logo*
-╠═➢ 🧭Ex: *.harta Alora
-║
-╠═➢ 🍁Cmd: *.1917*
-╠══➢ 📛 Dec: *Send 1917 logo*
-╠═➢ 🧭Ex: *.1917 Alora
-║
-╠═➢ 🍁Cmd: *.minion*
-╠══➢ 📛 Dec: *Send minion logo*
-╠═➢ 🧭Ex: *.minion Alora
-║
-╠═➢ 🍁Cmd: *.holo*
-╠══➢ 📛  Dec: *Send holo logo*
-╠═➢ 🧭 Ex: *.holo Alora*
-║
-╠═➢ 🍁Cmd: *.metalp*
-╠══➢ 📛  Dec: *Send metalp logo*
-╠═➢ 🧭 Ex: *.metalp Alora*
-║
-╠═➢ 🍁Cmd: *.avengers*
-╠══➢ 📛  Dec: *Send avengers logo*
-╠═➢ 🧭 Ex: *.avengers Alora*
-║
-╠═➢ 🍁Cmd: *.halloween*
-╠══➢ 📛  Dec: *Send halloween logo*
-╠═➢ 🧭 Ex: *.halloween Alora
-║
-╠═➢ 🍁Cmd: *.horror*
-╠══➢ 📛  Dec: *Send horror logo*
-╠═➢ 🧭 Ex: *.horror Alora*
-║
-╠═➢ 🍁Cmd: *.glossyc*
-╠══➢ 📛  Dec: *Send glossy logo*
-╠═➢ 🧭 Ex: *.glossyc Alora*
-║
-╠═➢ 🍁Cmd: *.deluxe*
-╠══➢ 📛  Dec: *Send deluxe logo*
-╠═➢ 🧭 Ex: *.deluxe Alora*
-║
-╠═➢ 🧭Cmd: *.glossyb*
-╠══➢ 📛  Dec: *Send glossy logo*
-╠═➢ 🧭 Ex: *.glossyb Alora*
-║
-╠═➢ 🧭Cmd: *.joker*
-╠══➢ 📛  Dec: *Send joker logo*
-╠═➢ 🧭 Ex: *.joker Alora*
-║
-║      ╔═🛠 ALORA BOT 🛠═╗
-║        ╚ ENJOY WITH US ╝
-╚══════════════════════`,quoted: message.data})
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  `┌─────────────────✦
+│👸✮❮ *ALORA LOGO PACK* ❯✮👸
+├───────✮✮✮✮✮✮────────✺
+│
+│
+├─➢ ❒Cmd: *.wel*
+├──➢ ✦ Dec: *ᴡᴇʟᴄᴏᴍᴇ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✮ Ex: *.wel Alora*
+│
+├─➢ ❒ Cmd: *.bye*
+├──➢ ✦ Dec: *ʙʏᴇ ꜱᴛʏʟᴇᴅ ʟᴏɢᴏ*
+├─➢ ✮Ex: *.bye Alora*
+│
+├─➢ ❒Cmd: *.marvel*
+├──➢ ✦ Dec: *ᴍᴀʀᴠᴇʟ ꜱᴛʏʟᴇᴅ ʟᴏɢᴏ1*
+├─➢ ✮ Ex: *.marvel Alora*
+│
+├─➢ ❒Cmd: *.2marvel*
+├──➢ ✦ Dec: *ᴍᴀʀᴠᴇʟ ꜱᴛʏʟᴇ ʟᴏɢᴏ2*
+├─➢ ✪Ex: *.2marvel Alora*
+│
+├─➢ ❒Cmd: *.wolf*
+├──➢ ✦ Dec: *ᴡᴏʟꜰ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✪Ex: *.wolf Alora*
+│
+├─➢ ❒Cmd: *.lava*
+├─➢ ✦ Dec: *ʟᴀᴠᴀ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✪Ex: *.lava Alora*
+│
+├─➢ ❒Cmd: *.xmas*
+├──➢ ✦ Dec: *xᴍᴀꜱ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✪Ex: *.xmas Alora*
+│
+├─➢ ❒Cmd: *.round*
+├──➢✦ Dec: *ʀᴏᴜɴᴅ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.round { image url }*
+│
+├─➢ ❒Cmd: .*.quot*
+├──➢ ✦  Dec: *ǫᴜᴏᴛᴇᴅ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.quot Alora*
+│
+├─➢ ❒Cmd: *.harta*
+├──➢ ✦ Dec: *ʜᴀʀᴛᴀ ꜱᴛʏʟᴇᴅ ʟᴏɢᴏ*
+├─➢ ✪Ex: *.harta Alora
+│
+├─➢ ❒Cmd: *.1917*
+├──➢ ✦ Dec: *ᴏʟᴅ ꜱᴛʏʟᴇᴅ ʟᴏɢᴏ*
+├─➢ ✪Ex: *.1917 Alora
+│
+├─➢ ❒Cmd: *.minion*
+├──➢ ✦ Dec: *ᴍɪɴɪᴏɴ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✪Ex: *.minion Alora
+│
+├─➢ ❒Cmd: *.holo*
+├──➢ ✦  Dec: *ʜᴏʟᴏ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.holo Alora*
+│
+├─➢ ❒Cmd: *.metalp*
+├──➢ ✦  Dec: *ᴍᴇᴛᴀʟ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.metalp Alora*
+│
+├─➢ ❒Cmd: *.avengers*
+├──➢ ✦  Dec: *ᴀᴠᴇɴɢᴇʀꜱ ꜱᴛʏʟᴇ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.avengers Alora*
+│
+├─➢ ❒Cmd: *.halloween*
+├──➢ ✦  Dec: *ꜱᴇɴᴅ ʜᴀʟʟᴏᴡᴇᴇɴ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.halloween Alora
+│
+├─➢ ❒Cmd: *.horror*
+├──➢ ✦  Dec: *ꜱᴇɴᴅ ʜᴏʀʀᴏʀ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.horror Alora*
+│
+├─➢ ❒Cmd: *.glossyc*
+├──➢ ✦  Dec: *ꜱᴇɴᴅ ɢʟᴏꜱꜱʏ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.glossyc Alora*
+│
+├─➢ ❒Cmd: *.deluxe*
+├──➢ ✦  Dec: *ꜱᴇɴᴅ ᴅᴇʟᴜxᴇ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.deluxe Alora*
+│
+├─➢ ❒Cmd: *.glossyb*
+├──➢ ✦  Dec: *ꜱᴇɴᴅ ɢʟᴏꜱꜱʏ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.glossyb Alora*
+│
+├─➢ ❒Cmd: *.joker*
+├──➢ ✦  Dec: *ꜱᴇɴᴅ ᴊᴏᴋᴇʀ ʟᴏɢᴏ*
+├─➢ ✪ Ex: *.joker Alora*
+│
+│✜✜✜✜✜✜✜✜✜✜✜✜✜✜✜✜✜✜✜    
+│❮✮✮ᖘꂦꅐꏂꋪꏂꀷ ꌃꌩ ꎭꌚ ꍏ꒒ꂦꋪꍏ✮✮❯
+│❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂       
+└───────────────────────▷❯`,quoted: message.data})
 
     }));
 
