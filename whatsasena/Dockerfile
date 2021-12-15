@@ -1,3 +1,6 @@
+//QueenAlora
+
+
 FROM fusuf/whatsasena:latest
 
 RUN git clone https://github.com/xRASHMITH/YrBot /root/WhatsAsenaDuplicated
