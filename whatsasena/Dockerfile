@@ -1,4 +1,4 @@
-//QueenAlora
+/*QueenAlora*/
 
 
 FROM fusuf/whatsasena:latest
