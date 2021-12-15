@@ -263,7 +263,7 @@ Asena.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Gives The Button Menu'
 *🧰𝖢𝗈𝗆𝗆𝖺𝗆𝖽:* .𝗎𝗇𝗆𝗎𝗍𝖾
 *🌹Description:* 𝖠𝗅𝗅𝗈𝗐𝗌 𝖬𝖾𝗆𝖻𝖾𝗋𝖽 𝗍𝗈 𝗌𝖾𝗇𝖽 𝗆𝖾𝗌𝗌𝖺𝗀𝖾𝗌
 
-", rowId:"rowid3"},
+`, rowId:"rowid3"},
 
  
 {title: '📱🔅 𝖮𝖶𝖭𝖤𝖱 𝖮𝖭𝖫𝖸,𝖲𝖴𝖣𝖮🔅📱', description: "▻\n\n
