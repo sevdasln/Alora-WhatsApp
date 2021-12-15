@@ -69,7 +69,7 @@ async function whatsAsena () {
     const conn = new WAConnection();
     conn.version = [2, 2140, 12];
     const Session = new StringSession();
-    conn.version = [3, 3234, 9];
+    conn.browserDescription = [Alora, Firefox, 90];
     
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
@@ -447,7 +447,7 @@ ${chalk.blue.italic('🧭 Connecting to WhatsApp...▶')}`);
             }
         )
     });
- // ════════════════════ERRROR MESSAGER🍁🍁🍁
+ // ════════════════════ERRROR MESSAGER✮✮✮
     try {
         await conn.connect();
     } catch {
