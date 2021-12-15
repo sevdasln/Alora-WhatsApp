@@ -70,7 +70,7 @@ async function whatsAsena () {
     conn.version = [3, 3234, 9];
     const Session = new StringSession();
     conn.version = [3, 2140, 12];
-    conn.browserDescription = ['Alora', 'Firefox', '90']
+    conn.browserDescription = ['Alora', 'MicrosoftEdge', '96']
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
     var nodb;
