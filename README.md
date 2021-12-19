@@ -102,7 +102,7 @@ the user is responsible.
 
 ## Developers
 
-[![Yusuf Usta](https://github.com/yusufusta.png?size=100)](https://www.fusuf.codes) | [![Phaticusthiccy](https://github.com/phaticusthiccy.png?size=100)](https://github.com/phaticusthiccy) | [![Alperen Ç](https://github.com/xacnio.png?size=100)](https://github.com/xacnio) | [![Justin Thoms](https://github.com/justinthoms.png?size=100)](https://github.com/justinthoms) | [![CW4RR10R](https://github.com/CW4RR10R.png?size=100)](https://github.com/CW4RR10R)
+[![Yusuf Usta](https://github.com/yusufusta.png?size=100)](https://www.fusuf.codes) | [![Phaticusthiccy](https://github.com/phaticusthiccy.png?size=100)](https://github.com/phaticusthiccy) | [![Alperen Ç](https://github.com/xacnio.png?size=100)](https://github.com/xacnio) | [![Justin Thoms](https://github.com/justinthoms.png?size=100)](https://github.com/justinthoms) | [![CW4RR10R](https://github.com/CW4RR10R.png?size=100)](https://github.com/CW4RR10R) | [![xRASHMITH](https://github.com/xRASHMITH.png?size=100)](https://www.github.com/xRASHMITH))
 ----|----|----|----|----
 [Yusuf Usta](https://t.me/fusufs) | [Phaticusthiccy](https://github.com/phaticusthiccy) | [Alperen Ç](https://t.me/xacnio) | [justinthoms](https://t.me/Mr_justinthomas) | [CW4RR10R](https://github.com/CW4RR10R) | [xRASHMITH] (https://github.com/CW4RR10R)
 
