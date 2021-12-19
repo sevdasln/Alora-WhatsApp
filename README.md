@@ -5,16 +5,13 @@
 - [@fusufs](https://t.me/fusufs)
 
 <p align="center">
-  <a href="https://github.com/phaticusthiccy/WhatsAsenaDuplicated/fork">
-    <img src="https://img.shields.io/github/forks/phaticusthiccy/WhatsAsenaDuplicated?label=Fork&style=social">
-    
-  </a>
-  <a href="https://github.com/phaticusthiccy/WhatsAsenaDuplicated/stargazers">
-    <img src="https://img.shields.io/github/stars/phaticusthiccy/WhatsAsenaDuplicated?style=social">
-  </a>
-  <a href="https://github.com/phaticusthiccy/WhatsAsenaDuplicated/commits/master">
-    <img src="https://img.shields.io/github/commit-activity/m/phaticusthiccy/WhatsAsenaDuplicated?style=social">
-  </a>
+  <a href="https://github.com/xRASHMITH/YrBot/fork">
+╔═══╗╔╗───╔═══╗╔═══╗╔═══╗
+║╔═╗║║║───║╔═╗║║╔═╗║║╔═╗║
+║║─║║║║───║║─║║║╚═╝║║║─║║
+║╚═╝║║║─╔╗║║─║║║╔╗╔╝║╚═╝║
+║╔═╗║║╚═╝║║╚═╝║║║║╚╗║╔═╗║
+╚╝─╚╝╚═══╝╚═══╝╚╝╚═╝╚╝─╚╝
 </p>
 
 <p align="center">
@@ -29,11 +26,11 @@ Since it is an open source project, anyone can copy the software, add and remove
 and use it in a way that they customize. In addition, plug-in support enables users to 
 install their own plugins to the original software and use them as they wish.
 Using the bot out of purpose will explicitly ban you.
-Usage is entirely the user's responsibility, Asena Userbot is an 
+Usage is entirely the user's responsibility, Alora Userbot is an 
 infrastructure only. Just as the operating system is not responsible 
-for the work done with the programs that are installed later, WhatsAsena 
+for the work done with the programs that are installed later, Alora 
 is not responsible for the usage purpose and method of the users.
-Marketing WhatsAsena for money, making it available or having any material value
+Marketing Alora for money, making it available or having any material value
 ıt is strictly forbidden to offer it for sale with anything. All legal investigations that may arise
 the user is responsible.
 </p>
@@ -62,12 +59,8 @@ the user is responsible.
 
 > [Install Guide/Kurulum Yardımcısı/Qurulum Müavin](https://github.com/phaticusthiccy/WhatsAsenaDuplicated/wiki)
 
-## 🔎 What is WhatsAsena?
-**WhatsAsena,** is a WhatsApp helper bot written by [Yusuf Usta](https://github.com/Quiec) and edited by [Phaticusthiccy](https://github.com/phaticusthiccy). Does not log into your account It is written on WhatsApp Web API.
-
-## Setup
-### Very Simple Method
-`Soon as Possible...`
+## 🔎 What is Alora?
+**Alora,** is a WhatsApp helper bot written by [Yusuf Usta](https://github.com/Quiec) and edited by [Phaticusthiccy](https://github.com/phaticusthiccy) and added buttons by [xRASHMITH](https://github.com/xRASHMITH). Does not log into your account It is written on WhatsApp Web API.
 
 ### Simple Method
 
@@ -75,21 +68,6 @@ the user is responsible.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xRASHMITH/YrBot)
 
-### The Hard Method
-```js
-$ git clone https://github.com/phaticusthiccy/WhatsAsenaDuplicated.git
-$ cd WhatsAsenaDuplicated
-$ npm i
-$ nano Config.env
-// Config.env oluşturun ve düzenleyin.
-// Config.env create and edit.
-$ node bot.js
-```
-
-##
-
-### ⚒️ Setup Wiki - Kurulum [Full Guide - Tam Anlatım]
-[![Setup - Kurulum](https://img.icons8.com/clouds/300/000000/settings.png)](https://github.com/phaticusthiccy/WhatsAsenaDuplicated/wiki)
 
 ##
 
