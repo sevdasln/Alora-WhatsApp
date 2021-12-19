@@ -113,8 +113,21 @@ the user is responsible.
 - [@Unique_hunter](https://t.me/Unique_hunter) for helps and ideas
 - Translators
 
+
 ## License
 This project is protected by `GNU General Public Licence v3.0` license.
 
 ### Disclaimer
 `WhatsApp` name, its variations and the logo are registered trademarks of Facebook. We have nothing to do with the registered trademark
+
+
+
+▢▢▢Go away the fox who steels programmers intelligence 😂▢▢▢
+<align center>
+╔╗──╔╗╔═══╗╔═══╗╔══╗╔═╗─╔╗╔═══╗╔╗─╔╗
+║╚╗╔╝║║╔═╗║║╔═╗║╚╣─╝║║╚╗║║╚╗╔╗║║║─║║
+╚╗╚╝╔╝║║─║║║╚══╗─║║─║╔╗╚╝║─║║║║║║─║║
+─╚╗╔╝─║╚═╝║╚══╗║─║║─║║╚╗║║─║║║║║║─║║
+──║║──║╔═╗║║╚═╝║╔╣─╗║║─║║║╔╝╚╝║║╚═╝║
+──╚╝──╚╝─╚╝╚═══╝╚══╝╚╝─╚═╝╚═══╝╚═══╝
+
