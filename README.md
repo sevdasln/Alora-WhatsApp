@@ -5,7 +5,7 @@
 - [@fusufs](https://t.me/fusufs)
 
 <p align="center">
-  <a href="https://github.com/xRASHMITH/YrBot/fork">
+  <a href="https://github.com/xRASHMITH/YrBot/star">
 ╔═══╗╔╗───╔═══╗╔═══╗╔═══╗
 ║╔═╗║║║───║╔═╗║║╔═╗║║╔═╗║
 ║║─║║║║───║║─║║║╚═╝║║║─║║
