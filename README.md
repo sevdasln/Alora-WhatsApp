@@ -27,10 +27,10 @@
 <p align="center">
    Alora project - Makes it easy and fun to use Whatsapp..
     <br>
-        <a href="https://t.me/AloraBotNews">◀▷Telegram Channel◀▷</a> |
-        <a href="https://t.me/AloraBotSupport">◁▶Telegram Group◀▷</a> |
-        <a href="https://t.me/AloraBotSupport">◀▷New Support Group◁▶</a> |
-        <a href="https://t.me/unofficialplugin">◀▷New Plugin Channel◁▶</a> |
+        <a href="https://t.me/AloraBotNews">◀▷Telegram Channel◀▷</a> <br>
+        <a href="https://t.me/AloraBotSupport">◁▶Telegram Group◀▷</a> <br>
+        <a href="https://t.me/AloraBotSupport">◀▷New Support Group◁▶</a> <br>
+        <a href="https://t.me/unofficialplugin">◀▷New Plugin Channel◁▶</a> <br> 
     <br>
 </p>
 
