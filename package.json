@@ -1,5 +1,5 @@
 {
-  "name": "AloraWaBot",
+  "name": "YrBot",
   "version": "1.0.0",
   "description": "WhatsAsena project - a Whatsapp userbot helping to improve your Whatsapp experience.",
   "main": "./YrBot/bot.js",
