@@ -50,9 +50,9 @@
 ### Simple Method
 <p><font size="6"> <b>First scan the qr</b></font></p>
 
-[![Run on Repl.it](https://repl.it/badge/github/phaticusthiccy/WhatsAsenaDuplicated)](https://repl.it/@xYazuwa/Alora-QR)
+[![Run on Repl.it](https://repl.it/badge/github/phaticusthiccy/WhatsAsenaDuplicated)](https://repl.it/@xYAZUWA/Alora-QR)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xRASHMITH/YrBot.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xRASHMITH/Alora-Installer.git)
 
 <div align="center">
 ➣╭━━━┳╮╱╱╭━━━┳━━━┳━━━╮ 
