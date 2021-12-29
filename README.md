@@ -21,7 +21,7 @@
   </a>
 
 <div align="center">
-  <img src="https://i.ibb.co/xY47y3L/20211210-075024.jpg" width="290" height="200">
+  <img src="https://i.ibb.co/xY47y3L/20211210-075024.jpg" width="320" height="200">
   <h1><font color='red'>👸 ALORA BOT ✅</font></h1>
 </div>
 <p align="center">
@@ -50,7 +50,7 @@
 ### Simple Method
 <p><font size="6"> <b>First scan the qr</b></font></p>
 
-[![Run on Repl.it](https://repl.it/badge/github/phaticusthiccy/WhatsAsenaDuplicated)](https://repl.it/@xYAZUWA/Alora-QR)
+[![Run on Repl.it](https://repl.it/badge/github/phaticusthiccy/WhatsAsenaDuplicated)](https://repl.it/@xYAZUWA/Alora-Qr)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xRASHMITH/Alora-Installer.git)
 
