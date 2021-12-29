@@ -48,8 +48,9 @@
 **Alora,** is a WhatsApp helper bot written by [Yusuf Usta](https://github.com/Quiec) and edited by [Phaticusthiccy](https://github.com/phaticusthiccy) and added buttons by [xRASHMITH](https://github.com/xRASHMITH). Does not log into your account It is written on WhatsApp Web API.
 
 ### Simple Method
+<p><font size="6"> <b>First scan the qr</b></font></p>
 
-[![Run on Repl.it](https://repl.it/badge/github/phaticusthiccy/WhatsAsenaDuplicated)](https://repl.it/@phaticusthiccy/WhatsAsena-QR)
+[![Run on Repl.it](https://repl.it/badge/github/phaticusthiccy/WhatsAsenaDuplicated)](https://repl.it/@xYazuwa/Alora-QR)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xRASHMITH/YrBot.git)
 
