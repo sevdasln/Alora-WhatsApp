@@ -1,14 +1,14 @@
 {
-  "name": "YrBot",
+  "name": "Alora-Whatsapp",
   "version": "1.0.0",
-  "description": "WhatsAsena project - a Whatsapp userbot helping to improve your Whatsapp experience.",
-  "main": "./YrBot/bot.js",
+  "description": "Alora project - a Whatsapp userbot helping to improve your Whatsapp experience.",
+  "main": "./Alora-WhatsApp/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xYAZUWA/YrBot.git"
+    "url": "git+https://github.com/xYAZUWA/Alora-WhatsApp.git"
   },
   "keywords": [
     "whatsapp",
