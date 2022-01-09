@@ -12,7 +12,8 @@ const fs = require('fs');
 const Language = require('../language');
 const Lang = Language.getString('system_stats');
 
- if (Config.WORKTYPE == 'public')
+ let tk = Config.WORKTYPE == 'public' ? false: true
+
 
 var SYSDTXT = ''
 if (Build.LANG == 'SI') SYSDTXT = '💻 පද්ධති තත්ත්වය'
