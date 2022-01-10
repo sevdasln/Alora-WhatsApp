@@ -2,7 +2,7 @@
 
 
 
-const Asena = require('../events')
+const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const {spawnSync} = require('child_process');
 const chalk = require('chalk');
@@ -25,19 +25,19 @@ if (Build.LANG == 'EN') VER = '🧬 Version'
 
 var MSG = ''
 if (Build.ALIVEMSG == 'default') MSG = '```Hey There! Bot Online now. 💃🏻♥️```\n\n*Developer:* ```Black Amda```\n\n*Official Website:* https://amdaniwasa.com\n\n*Youtube channel :* https://www.youtube.com/channel/UCZx8U1EU95-Wn9mH4dn15vQ\n\n```Thank You For Using Queen Amdi💞```'
-else MSG = Build.ALIVEMSG
+else MSG = ALIVEMSG
 
 
 Asena.addCommand({pattern: 'alive', fromMe: Work_Mode, desc: Lang.ALIVE_DESC,  deleteCommand: false}, (async (message, match) => {
     await QueenAmdi.amdi_setup()
-    var logo = await axios.get (Build.ALIVE_LOGO, {responseType: 'arraybuffer'})
+    var logo = await axios.get (ALIVE_LOGO, {responseType: 'arraybuffer'})
     var PIC = Buffer.from(logo.data)
 
     const media = await message.client.prepareMessage(message.jid, PIC, MessageType.image, { thumbnail: PIC })
 
     var BUTTHANDLE = '';
-    if (/\[(\W*)\]/.test(Build.HANDLERS)) {
-        BUTTHANDLE = Build.HANDLERS.match(/\[(\W*)\]/)[1][0];
+    if (/\[(\W*)\]/.test(HANDLERS)) {
+        BUTTHANDLE = HANDLERS.match(/\[(\W*)\]/)[1][0];
     } else {
         BUTTHANDLE = '.';
     }
