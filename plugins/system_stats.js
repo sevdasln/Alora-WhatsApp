@@ -17,12 +17,12 @@ const Lang = Language.getString('system_stats');
 
 
 var SYSDTXT = ''
-if (Build.LANG == 'SI') SYSDTXT = '💻 පද්ධති තත්ත්වය'
-if (Build.LANG == 'EN') SYSDTXT = '💻 System status'
+if (LANG == 'SI') SYSDTXT = '💻 පද්ධති තත්ත්වය'
+if (LANG == 'EN') SYSDTXT = '💻 System status'
 
 var VER = ''
-if (Build.LANG == 'SI') VER = '🧬 Version'
-if (Build.LANG == 'EN') VER = '🧬 Version'
+if (LANG == 'SI') VER = '🧬 Version'
+if (LANG == 'EN') VER = '🧬 Version'
 
 var MSG = ''
 if (ALIVEMSG == 'default') MSG = '```Hey There! Bot Online now. 💃🏻♥️```\n\n*Developer:* ```Black Amda```\n\n*Official Website:* https://amdaniwasa.com\n\n*Youtube channel :* https://www.youtube.com/channel/UCZx8U1EU95-Wn9mH4dn15vQ\n\n```Thank You For Using Queen Amdi💞```'
