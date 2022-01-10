@@ -29,7 +29,7 @@ if (ALIVEMSG == 'default') MSG = '```Hey There! Bot Online now. 💃🏻♥️``
 else MSG = ALIVEMSG
 
 
-Asena.addCommand({pattern: 'alive', fromMe: WORK_TYPE, desc: Lang.ALIVE_DESC,  deleteCommand: false}, (async (message, match) => {
+Asena.addCommand({pattern: 'alive', fromMe: tk, desc: Lang.ALIVE_DESC,  deleteCommand: false}, (async (message, match) => {
     await QueenAmdi.amdi_setup()
     var logo = await axios.get (ALIVE_LOGO, {responseType: 'arraybuffer'})
     var PIC = Buffer.from(logo.data)
@@ -57,7 +57,7 @@ Asena.addCommand({pattern: 'alive', fromMe: WORK_TYPE, desc: Lang.ALIVE_DESC,  d
     await message.client.sendMessage(message.jid, buttonMessage, MessageType.buttonsMessage);
 }))
 
-Asena.addCommand({pattern: 'qasysstats', fromMe: WORK_TYPE, desc: Lang.SYSD_DESC, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
+Asena.addCommand({pattern: 'qasysstats', fromMe: tk, desc: Lang.SYSD_DESC, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
     await QueenAmdi.amdi_setup()
     const child = spawnSync('neofetch', ['--stdout']).stdout.toString('utf-8')
     await message.sendMessage(
@@ -65,7 +65,7 @@ Asena.addCommand({pattern: 'qasysstats', fromMe: WORK_TYPE, desc: Lang.SYSD_DESC
     );
 }));
 
-Asena.addCommand({pattern: 'qaversion', fromMe: WORK_TYPE, desc: Lang.BOT_V, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
+Asena.addCommand({pattern: 'qaversion', fromMe: tk, desc: Lang.BOT_V, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
     await QueenAmdi.amdi_setup()
     await message.client.sendMessage(message.jid, 
         `*✨ Alora Version 🎉*\n\n` + 
