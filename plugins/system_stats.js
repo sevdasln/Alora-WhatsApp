@@ -17,16 +17,16 @@ const Lang = Language.getString('system_stats');
 
 
 var SYSDTXT = ''
-if (Config.LANG == 'SI') SYSDTXT = '💻 පද්ධති තත්ත්වය'
-if (Config.LANG == 'EN') SYSDTXT = '💻 System status'
+if (Config.LANG == 'SI') SYSDTXT = '📣 පද්ධති තත්ත්වය'
+if (Config.LANG == 'EN') SYSDTXT = '📣 System stats'
 
 var VER = ''
-if (Config.LANG == 'SI') VER = '🧬 Version'
-if (Config.LANG == 'EN') VER = '🧬 Version'
+if (Config.LANG == 'SI') VER = '📲 Version'
+if (Config.LANG == 'EN') VER = '📲 Version'
 
 var MSG = ''
-if (Config.ALIVEMSG == 'default') MSG = '```Hey There! Bot Online now. 💃🏻♥️```\n\n*Developer:* ```Black Amda```\n\n*Official Website:* https://amdaniwasa.com\n\n*Youtube channel :* https://www.youtube.com/channel/UCZx8U1EU95-Wn9mH4dn15vQ\n\n```Thank You For Using Queen Amdi💞```'
-else MSG = ALIVEMSG
+if (Config.ALIVEMSG == 'default') MSG = '╭──────────◅\n│\n│🎧ʜᴇʟʟᴏ ᴜꜱᴇʀ\n│╭──────────────╮\n│👸Ｉ ＡＭ A L I V E  \n👸  │╰──────────────╯\n│\n├►ɪ ᴀᴍ ᴀʟᴏʀᴀ ʙᴏᴛ\n│\n├▻ᴠᴇʀꜱɪᴏɴ - ᴡɪᴛʜᴏᴜᴛ ʙᴜᴛᴛᴏɴꜱ\n│\n├▻ᴅᴇᴠᴇʟᴏᴘᴇʀ - xY̷A̷Z̷U̷W̷A̷\n│\n├▻ᴍᴇɴᴜ ᴄᴏᴍᴍᴀɴᴅ - .alora\n│\n│💞ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ👸\n│\n╰────────────▻\n\nـــ٨ـہہـ♡ـ٨ـہـ'
+else MSG = Config.ALIVEMSG
 
 
 Asena.addCommand({pattern: 'alive', fromMe: tk, desc: Lang.ALIVE_DESC,  deleteCommand: false}, (async (message, match) => {
@@ -34,7 +34,6 @@ Asena.addCommand({pattern: 'alive', fromMe: tk, desc: Lang.ALIVE_DESC,  deleteCo
     var logo = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
     var PIC = Buffer.from(logo.data)
 
-    const media = await message.client.prepareMessage(message.jid, PIC, MessageType.image, { thumbnail: PIC })
 
     var BUTTHANDLE = '';
     if (/\[(\W*)\]/.test(Config.HANDLERS)) {
@@ -52,7 +51,7 @@ Asena.addCommand({pattern: 'alive', fromMe: tk, desc: Lang.ALIVE_DESC,  deleteCo
         footerText: 'ǫᴜᴇᴇɴ ᴀʟᴏʀᴀ © ʙᴇᴛᴀ ᴇᴅɪᴛɪᴏɴ',
         buttons: buttons,
         headerType: 4,
-        imageMessage: media.message.imageMessage    
+        imageMessage: 'https://i.ibb.co/xY47y3L/20211210-075024.jpg:   
     }
     await message.client.sendMessage(message.jid, buttonMessage, MessageType.buttonsMessage);
 }))
@@ -65,7 +64,7 @@ Asena.addCommand({pattern: 'qasysstats', fromMe: tk, desc: Lang.SYSD_DESC, dontA
     );
 }));
 
-Asena.addCommand({pattern: 'qaversion', fromMe: tk, desc: Lang.BOT_V, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
+Asena.addCommand({pattern: 'qaversion', fromMe: tk, desc: Lang., dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
     await QueenAmdi.amdi_setup()
     await message.client.sendMessage(message.jid, 
         `*✨ Alora Version 🎉*\n\n` + 
