@@ -1,5 +1,4 @@
 /* Credit goes to BlackAmda*/
-
 /* Copyright (C) 2021 xYAZUWA
 
 Licensed under the  GPL-3.0 License;
@@ -15,12 +14,13 @@ const {MessageType, MessageOptions, Mimetype, Presence} = require('@adiwajshing/
 const {spawnSync} = require('child_process');
 const Config = require('../config');
 const chalk = require('chalk');
-const axios = require('axios');
+const Axios = require('axios');
 
 const Language = require('../language');
 const Lang = Language.getString('system_stats');
 
 //𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝𝕝
+
 
 if (Config.WORKTYPE == 'public') {
 
@@ -40,6 +40,9 @@ if (Config.LANG == 'EN') VER = '📲 Version'
 var MSG = ''
 if (Config.ALIVEMSG == 'default') MSG = '╭──────────◅\n│\n│🎧ʜᴇʟʟᴏ ᴜꜱᴇʀ\n│╭──────────────╮\n│👸Ｉ ＡＭ A L I V E  \n👸  │╰──────────────╯\n│\n├►ɪ ᴀᴍ ᴀʟᴏʀᴀ ʙᴏᴛ\n│\n├▻ᴠᴇʀꜱɪᴏɴ - ᴡɪᴛʜ ʙᴜᴛᴛᴏɴꜱ\n│\n├▻ᴅᴇᴠᴇʟᴏᴘᴇʀ - xY̷A̷Z̷U̷W̷A̷\n│\n├▻ᴍᴇɴᴜ ᴄᴏᴍᴍᴀɴᴅ - .alora\n│\n│💞ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ👸\n│\n╰────────────▻\n\nـــ٨ـہہـ♡ـ٨ـہـ'
 else MSG = Config.ALIVEMSG
+
+var IMAGE = await axios.get ('https://i.ibb.co/xY47y3L/20211210-075024.jpg', {responseType: 'arraybuffer'})
+
         
 
 const buttons = [
@@ -48,7 +51,7 @@ const buttons = [
  ]
 
 const btn = {
-    imageMessage: 'https://i.ibb.co/xY47y3L/20211210-075024.jpg',
+    imageMessage: IMAGE ,
     contentText: MSG ,
     footerText: 'ᴀʟᴏʀᴀ ᴘᴜʙʟɪᴄ sᴛᴀʙʟᴇシ︎',
     buttons: buttons,
@@ -59,7 +62,7 @@ const btn = {
 }
     }));
 
-    Asena.addCommand({pattern: 'qasysstats', fromMe: false,  deleteCommand: false,  desc: Lang.SYSD_DESC, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'qasysstats', fromMe: true,  deleteCommand: false,  desc: Lang.SYSD_DESC, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '393475528094-1415817281@g.us') {
 
