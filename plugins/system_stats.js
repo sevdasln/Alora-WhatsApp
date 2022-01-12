@@ -24,14 +24,7 @@ const Lang = Language.getString('system_stats');
 
 if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
-
-       
-
- if (Config.ALIVEMSG == 'default') {
-            
-    
-var SYSDTXT = ''
+   var SYSDTXT = ''
 if (Config.LANG == 'SI') SYSDTXT = '📣 පද්ධති තත්ත්වය'
 if (Config.LANG == 'EN') SYSDTXT = '📣 System stats'
 
@@ -42,23 +35,30 @@ if (Config.LANG == 'EN') VER = '📲 Version'
 var MSG = ''
 if (Config.ALIVEMSG == 'default') MSG = '╭──────────◅\n│\n│🎧ʜᴇʟʟᴏ ᴜꜱᴇʀ\n│╭──────────────╮\n│👸Ｉ ＡＭ A L I V E  \n👸  │╰──────────────╯\n│\n├►ɪ ᴀᴍ ᴀʟᴏʀᴀ ʙᴏᴛ\n│\n├▻ᴠᴇʀꜱɪᴏɴ - ᴡɪᴛʜ ʙᴜᴛᴛᴏɴꜱ\n│\n├▻ᴅᴇᴠᴇʟᴏᴘᴇʀ - xY̷A̷Z̷U̷W̷A̷\n│\n├▻ᴍᴇɴᴜ ᴄᴏᴍᴍᴀɴᴅ - .alora\n│\n│💞ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ👸\n│\n╰────────────▻\n\nـــ٨ـہہـ♡ـ٨ـہـ'
 else MSG = Config.ALIVEMSG
+      
 
-var IMAGE = await axios.get ('https://i.ibb.co/xY47y3L/20211210-075024.jpg', {responseType: 'arraybuffer'})
+ Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
+            
+    var logo = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+    var PIC = Buffer.from(logo.data)
 
-  var BUTTHANDLE = '';
+    const media = await message.client.prepareMessage(message.jid, PIC, MessageType.image, { thumbnail: PIC })
+
+    var BUTTHANDLE = '';
     if (/\[(\W*)\]/.test(Config.HANDLERS)) {
         BUTTHANDLE = HANDLERS.match(/\[(\W*)\]/)[1][0];
     } else {
         BUTTHANDLE = '.';
-    }      
+    }
+         
 
-const buttons = [
+ const buttons = [
   {buttonId: BUTTHANDLE + 'qaversion', buttonText: {displayText: SYSDTXT }, type: 1},
   {buttonId: BUTTHANDLE + 'qasysstats', buttonText: {displayText: VER }, type: 1},
  ]
 
 const btn = {
-    imageMessage: IMAGE ,
+    imageMessage: media.message.imageMessage ,
     contentText: MSG ,
     footerText: 'ᴀʟᴏʀᴀ ᴘᴜʙʟɪᴄ sᴛᴀʙʟᴇシ︎',
     buttons: buttons,
