@@ -26,7 +26,9 @@ if (Config.WORKTYPE == 'public') {
 
     Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
-        if (Config.ALIVEMSG == 'default') {
+       
+
+ if (Config.ALIVEMSG == 'default') {
             
     
 var SYSDTXT = ''
@@ -43,7 +45,12 @@ else MSG = Config.ALIVEMSG
 
 var IMAGE = await axios.get ('https://i.ibb.co/xY47y3L/20211210-075024.jpg', {responseType: 'arraybuffer'})
 
-        
+  var BUTTHANDLE = '';
+    if (/\[(\W*)\]/.test(Config.HANDLERS)) {
+        BUTTHANDLE = HANDLERS.match(/\[(\W*)\]/)[1][0];
+    } else {
+        BUTTHANDLE = '.';
+    }      
 
 const buttons = [
   {buttonId: BUTTHANDLE + 'qaversion', buttonText: {displayText: SYSDTXT }, type: 1},
