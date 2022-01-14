@@ -54,11 +54,12 @@ else MSG = Config.ALIVEMSG
  ]
 
 const btn = {
-    imageMessage: media.message.imageMessage ,
+     
     contentText: MSG ,
     footerText: 'ᴀʟᴏʀᴀ ᴘᴜʙʟɪᴄ sᴛᴀʙʟᴇシ︎',
     buttons: buttons,
     headerType: 4
+    imageMessage: media.message.imageMessage
 }
 
   await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
