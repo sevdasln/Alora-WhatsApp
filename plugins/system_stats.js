@@ -66,7 +66,7 @@ const buttonMessage = {
     imageMessage: media.message.imageMessage 
 }
 
-  await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
+  await message.client.sendMessage (message.jid, buttonMessage, MessageType.buttonsMessage)
 
     }));
 
