@@ -16,6 +16,7 @@ const Config = require('../config');
 const chalk = require('chalk');
 const axios = require('axios');
 const fs = require('fs');
+
 const Language = require('../language');
 const Lang = Language.getString('system_stats');
 
@@ -39,11 +40,12 @@ else MSG = Config.ALIVEMSG
 
  Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
             
-    var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+    /*var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
     var PIC = Buffer.from(image.data)
 
     const media = await message.client.prepareMessage(message.jid, PIC, MessageType.image, { thumbnail: PIC })
-
+*/
+   
     var BUTTHANDLE = '';
     if (/\[(\W*)\]/.test(Config.HANDLERS)) {
         BUTTHANDLE = Config.HANDLERS.match(/\[(\W*)\]/)[1][0];
