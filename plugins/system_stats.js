@@ -42,7 +42,7 @@ else MSG = Config.ALIVEMSG
     var logo = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
     var PIC = Buffer.from(logo.data)
 
-    const media = await message.client.prepareMessage(message.jid, PIC, MessageType.image, { thumbnail: PIC })
+    const media = await message.client.prepackMessage(message.jid, PIC, MessageType.image, { thumbnail: PIC })
 
     var BUTTHANDLE = '';
     if (/\[(\W*)\]/.test(Config.HANDLERS)) {
@@ -58,11 +58,12 @@ else MSG = Config.ALIVEMSG
  ]
 
 const btn = {
-    imageMessage: media.message.imageMessage ,
+    
     contentText: MSG ,
     footerText: 'ᴀʟᴏʀᴀ ᴘᴜʙʟɪᴄ sᴛᴀʙʟᴇシ︎',
     buttons: buttons,
-    headerType: 4
+    headerType: 4,
+    imageMessage: media.message.imageMessage 
 }
 
   await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
