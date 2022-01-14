@@ -74,7 +74,7 @@ async function whatsAsena () {
     const conn = new WAConnection();
     conn.version = [3, 3234, 9];
     const Session = new StringSession();
-    conn.browserDescription = ['Alora', 'Edge', '90'];
+    conn.browserDescription = ['Alora', 'Edge', '96'];
     
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
