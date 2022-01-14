@@ -1,9 +1,3 @@
-/* Credit goes to BlackAmda*/
-/* Copyright (C) 2021 xYAZUWA
-
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-
 Alora 🛠️ xRASHMITH
 */
 
@@ -38,19 +32,8 @@ if (Config.ALIVEMSG == 'default') MSG = '╭──────────◅\n�
 else MSG = Config.ALIVEMSG
 
 
-const Asena = require('../events');
-const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
-const {spawnSync} = require('child_process');
-const Config = require('../config');
-const chalk = require('chalk');
-const axios = require('axios');
-
-const Language = require('../language');
-const Lang = Language.getString('system_stats');
 
 
-
-if (Config.WORKTYPE == 'private') {
 
     Asena.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC,  deleteCommand: false}, (async (message, match) => {
 
@@ -59,76 +42,6 @@ if (Config.WORKTYPE == 'private') {
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "╭──────────◅\n│\n│🎧ʜᴇʟʟᴏ ᴜꜱᴇʀ\n│╭──────────────╮\n│👸Ｉ ＡＭ A L I V E  \n👸  │╰──────────────╯\n│\n├►ɪ ᴀᴍ ᴀʟᴏʀᴀ ʙᴏᴛ\n│\n├▻ᴠᴇʀꜱɪᴏɴ - ᴡɪᴛʜ ʙᴜᴛᴛᴏɴꜱ\n│\n├▻ᴅᴇᴠᴇʟᴏᴘᴇʀ - xY̷A̷Z̷U̷W̷A̷\n│\n├▻ᴍᴇɴᴜ ᴄᴏᴍᴍᴀɴᴅ - .alora\n│\n│💞ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ👸\n│\n╰────────────▻\n\nـــ٨ـہہـ♡ـ٨ـہـ"})
-
-    }
-    else {
-            
-            var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
-       
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*Copyright © 2022 | Queen Alora*' })
-     }
-    }));
-
-    Asena.addCommand({pattern: 'absystats', fromMe: true, desc: Lang.SYSD_DESC, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
-
-        const child = spawnSync('neofetch', ['--stdout']).stdout.toString('utf-8')
-        await message.sendMessage(
-            '```' + child + '```', MessageType.text
-        );
-    }));
-
-    Asena.addCommand({pattern: 'abversion', fromMe: true, desc: Lang.BOT_V,  deleteCommand: false}, (async (message, match) => {    
-    
-        await message.client.sendMessage(message.jid, 
-                `*⚝ Queen Alora Version 🎶*\n\n` + 
-                '```Installed version :```\n' +
-                Lang.VERS_ION + 
-                `\n\nCheck official website : https://www.alorabot.netlify.app/`
-           , MessageType.text);
-            
-        }));
-}
-else if (Config.WORKTYPE == 'public') {
-
-    Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
-
-        if (Config.ALIVEMSG == 'default') {
-            
-            var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
-       
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "╭──────────◅\n│\n│🎧ʜᴇʟʟᴏ ᴜꜱᴇʀ\n│╭──────────────╮\n│👸Ｉ ＡＭ A L I V E  \n👸  │╰──────────────╯\n│\n├►ɪ ᴀᴍ ᴀʟᴏʀᴀ ʙᴏᴛ\n│\n├▻ᴠᴇʀꜱɪᴏɴ - ᴡɪᴛʜ ʙᴜᴛᴛᴏɴꜱ\n│\n├▻ᴅᴇᴠᴇʟᴏᴘᴇʀ - xY̷A̷Z̷U̷W̷A̷\n│\n├▻ᴍᴇɴᴜ ᴄᴏᴍᴍᴀɴᴅ - .alora\n│\n│💞ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ👸\n│\n╰────────────▻\n\nـــ٨ـہہـ♡ـ٨ـہـ"})
-
-  }
-var BUTTHANDLE = '';
-    if (/\[(\W*)\]/.test(Config.HANDLERS)) {
-        BUTTHANDLE = Config.HANDLERS.match(/\[(\W*)\]/)[1][0];
-    } else {
-        BUTTHANDLE = '.';
-    }
-         
-
- const buttons = [
-  {buttonId: BUTTHANDLE + 'abversion', buttonText: {displayText: SYSDTXT }, type: 1},
-  {buttonId: BUTTHANDLE + 'absystats', buttonText: {displayText: VER }, type: 1},
- ]
-
-const buttonMessage = {
-    
-    contentText: ALIVEMG ,
-    footerText: 'ᴀʟᴏʀᴀ ᴘᴜʙʟɪᴄ sᴛᴀʙʟᴇシ︎',
-    buttons: buttons,
-    headerType: 4,
-    
-}
-
-  await message.client.sendMessage (message.jid, buttonMessage, MessageType.buttonsMessage)
-
-    else {
-            
-            var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
-       
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*Copyright © 2022 | Queen Alora*' })
-     }
 
 var BUTTHANDLE = '';
     if (/\[(\W*)\]/.test(Config.HANDLERS)) {
@@ -154,6 +67,13 @@ const buttonMessage = {
 
   await message.client.sendMessage (message.jid, buttonMessage, MessageType.buttonsMessage)
 
+    }
+    else {
+            
+            var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+       
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*Copyright © 2022 | Queen Alora*' })
+     }
     }));
 
     Asena.addCommand({pattern: 'absystats', fromMe: true, desc: Lang.SYSD_DESC, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
@@ -164,10 +84,10 @@ const buttonMessage = {
         );
     }));
 
-    Asena.addCommand({pattern: 'abversion', fromMe: false, desc: Lang.BOT_V}, (async (message, match) => {    
+    Asena.addCommand({pattern: 'abversion', fromMe: true, desc: Lang.BOT_V,  deleteCommand: false}, (async (message, match) => {    
     
-        abversion message.client.sendMessage(message.jid, 
-                `*⚝ Queen Alora Version ✆*\n\n` + 
+        await message.client.sendMessage(message.jid, 
+                `*⚝ Queen Alora Version 🎶*\n\n` + 
                 '```Installed version :```\n' +
                 Lang.VERS_ION + 
                 `\n\nCheck official website : https://www.alorabot.netlify.app/`
