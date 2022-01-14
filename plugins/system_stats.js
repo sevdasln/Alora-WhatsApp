@@ -39,11 +39,7 @@ else MSG = Config.ALIVEMSG
 
  Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
             
-    var logo = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
-    var PIC = Buffer.from(logo.data)
-
-    const media = await message.client.prepareMessage(message.jid, PIC, MessageType.image, { thumbnail: PIC })
-
+    
     var BUTTHANDLE = '';
     if (/\[(\W*)\]/.test(Config.HANDLERS)) {
         BUTTHANDLE = HANDLERS.match(/\[(\W*)\]/)[1][0];
