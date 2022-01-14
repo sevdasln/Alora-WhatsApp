@@ -38,46 +38,38 @@ if (Config.ALIVEMSG == 'default') MSG = '╭──────────◅\n�
 else MSG = Config.ALIVEMSG
 
 
- Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
+const Asena = require('../events');
+const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
+const {spawnSync} = require('child_process');
+const Config = require('../config');
+const chalk = require('chalk');
+const axios = require('axios');
+
+const Language = require('../language');
+const Lang = Language.getString('system_stats');
+
+
+
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC,  deleteCommand: false}, (async (message, match) => {
+
+        if (Config.ALIVEMSG == 'default') {
             
-    /*var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
-    var PIC = Buffer.from(image.data)
+            var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+       
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```👸💎 Hey There! I'm Online now. 😙```\n\n*Developer:* ```Black Amda```\n\n*WhatsApp :* wa.me/94757405652\n\n*Youtube channel :* https://www.youtube.com/channel/UCZx8U1EU95-Wn9mH4dn15vQ\n\n```Thank You For Using Queen Amdi💞```"})
 
-    const media = await message.client.prepareMessage(message.jid, PIC, MessageType.image, { thumbnail: PIC })
-*/
-   
-    var BUTTHANDLE = '';
-    if (/\[(\W*)\]/.test(Config.HANDLERS)) {
-        BUTTHANDLE = Config.HANDLERS.match(/\[(\W*)\]/)[1][0];
-    } else {
-        BUTTHANDLE = '.';
     }
-         
-
- const buttons = [
-  {buttonId: BUTTHANDLE + 'qaversion', buttonText: {displayText: SYSDTXT }, type: 1},
-  {buttonId: BUTTHANDLE + 'qasysstats', buttonText: {displayText: VER }, type: 1},
- ]
-
-const buttonMessage = {
-    
-    contentText: ALIVEMG ,
-    footerText: 'ᴀʟᴏʀᴀ ᴘᴜʙʟɪᴄ sᴛᴀʙʟᴇシ︎',
-    buttons: buttons,
-    headerType: 4,
-    
-}
-
-  await message.client.sendMessage (message.jid, buttonMessage, MessageType.buttonsMessage)
-
+    else {
+            
+            var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+       
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*Copyright © 2021 | Queen Amdi*' })
+     }
     }));
 
-    Asena.addCommand({pattern: 'qasysstats', fromMe: true,  deleteCommand: false,  desc: Lang.SYSD_DESC, dontAddCommandList: true}, (async (message, match) => {
-
-        if (message.jid === '393475528094-1415817281@g.us') {
-
-            return;
-        }
+    Asena.addCommand({pattern: 'sysd', fromMe: true, desc: Lang.SYSD_DESC, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
 
         const child = spawnSync('neofetch', ['--stdout']).stdout.toString('utf-8')
         await message.sendMessage(
@@ -85,13 +77,51 @@ const buttonMessage = {
         );
     }));
 
-    Asena.addCommand({pattern: 'qaversion', fromMe: false, desc: Lang.BOT_V}, (async (message, match) => {    
+    Asena.addCommand({pattern: 'version', fromMe: true, desc: Lang.BOT_V,  deleteCommand: false}, (async (message, match) => {    
     
         await message.client.sendMessage(message.jid, 
-                `*🌹𝖰𝗎𝖾𝖾𝗇 𝖠𝗅𝗈𝗋𝖺 *\n\n` + 
+                `*🧬 Queen Amdi Version 🧬*\n\n` + 
                 '```Installed version :```\n' +
-                ' V 2.5.0 - Public'+
-                `\n\n🧰 Check github for bot:  https://github.com/xYAZUWA/AloraButtons`
+                Lang.version + 
+                `\n\nCheck official website : https://www.amdaniwasa.com/`
+           , MessageType.text);
+            
+        }));
+}
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
+
+        if (Config.ALIVEMSG == 'default') {
+            
+            var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+       
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```👸💎 Hey There! I'm Online now. 😙```\n\n*Developer:* ```Black Amda```\n\n*WhatsApp :* wa.me/94757405652\n\n*Youtube channel :* https://www.youtube.com/channel/UCZx8U1EU95-Wn9mH4dn15vQ\n\n```Thank You For Using Queen Amdi💞```"})
+
+    }
+    else {
+            
+            var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+       
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*Copyright © 2021 | Queen Amdi*' })
+     }
+    }));
+
+    Asena.addCommand({pattern: 'sysd', fromMe: true, desc: Lang.SYSD_DESC, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
+
+        const child = spawnSync('neofetch', ['--stdout']).stdout.toString('utf-8')
+        await message.sendMessage(
+            '```' + child + '```', MessageType.text
+        );
+    }));
+
+    Asena.addCommand({pattern: 'version', fromMe: false, desc: Lang.BOT_V}, (async (message, match) => {    
+    
+        await message.client.sendMessage(message.jid, 
+                `*⚝ Queen Alora Version ✆*\n\n` + 
+                '```Installed version :```\n' +
+                Lang.VERSION + 
+                `\n\nCheck official website : https://www.alorabot.netlify.app/`
            , MessageType.text);
             
         }));
