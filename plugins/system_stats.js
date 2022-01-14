@@ -65,7 +65,7 @@ const buttonMessage = {
     footerText: 'ᴀʟᴏʀᴀ ᴘᴜʙʟɪᴄ sᴛᴀʙʟᴇシ︎',
     buttons: buttons,
     headerType: 4,
-    imageMessage: media.message.imageMessage 
+    
 }
 
   await message.client.sendMessage (message.jid, buttonMessage, MessageType.buttonsMessage)
