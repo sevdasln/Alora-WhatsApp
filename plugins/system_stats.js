@@ -59,7 +59,7 @@ const btn = {
     footerText: 'ᴀʟᴏʀᴀ ᴘᴜʙʟɪᴄ sᴛᴀʙʟᴇシ︎',
     buttons: buttons,
     headerType: 4
-    imageMessage: media.message.imageMessage
+    imageMessage: 'https://i.ibb.co/xY47y3L/20211210-075024.jpg'
 }
 
   await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
