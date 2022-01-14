@@ -69,7 +69,7 @@ if (Config.WORKTYPE == 'private') {
      }
     }));
 
-    Asena.addCommand({pattern: 'sysd', fromMe: true, desc: Lang.SYSD_DESC, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
+    Asena.addCommand({pattern: 'absystats', fromMe: true, desc: Lang.SYSD_DESC, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
 
         const child = spawnSync('neofetch', ['--stdout']).stdout.toString('utf-8')
         await message.sendMessage(
@@ -77,7 +77,7 @@ if (Config.WORKTYPE == 'private') {
         );
     }));
 
-    Asena.addCommand({pattern: 'version', fromMe: true, desc: Lang.BOT_V,  deleteCommand: false}, (async (message, match) => {    
+    Asena.addCommand({pattern: 'abversion', fromMe: true, desc: Lang.BOT_V,  deleteCommand: false}, (async (message, match) => {    
     
         await message.client.sendMessage(message.jid, 
                 `*⚝ Queen Alora Version 🎶*\n\n` + 
@@ -98,16 +98,65 @@ else if (Config.WORKTYPE == 'public') {
        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "╭──────────◅\n│\n│🎧ʜᴇʟʟᴏ ᴜꜱᴇʀ\n│╭──────────────╮\n│👸Ｉ ＡＭ A L I V E  \n👸  │╰──────────────╯\n│\n├►ɪ ᴀᴍ ᴀʟᴏʀᴀ ʙᴏᴛ\n│\n├▻ᴠᴇʀꜱɪᴏɴ - ᴡɪᴛʜ ʙᴜᴛᴛᴏɴꜱ\n│\n├▻ᴅᴇᴠᴇʟᴏᴘᴇʀ - xY̷A̷Z̷U̷W̷A̷\n│\n├▻ᴍᴇɴᴜ ᴄᴏᴍᴍᴀɴᴅ - .alora\n│\n│💞ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ👸\n│\n╰────────────▻\n\nـــ٨ـہہـ♡ـ٨ـہـ"})
 
+  }
+var BUTTHANDLE = '';
+    if (/\[(\W*)\]/.test(Config.HANDLERS)) {
+        BUTTHANDLE = Config.HANDLERS.match(/\[(\W*)\]/)[1][0];
+    } else {
+        BUTTHANDLE = '.';
     }
+         
+
+ const buttons = [
+  {buttonId: BUTTHANDLE + 'abversion', buttonText: {displayText: SYSDTXT }, type: 1},
+  {buttonId: BUTTHANDLE + 'absystats', buttonText: {displayText: VER }, type: 1},
+ ]
+
+const buttonMessage = {
+    
+    contentText: ALIVEMG ,
+    footerText: 'ᴀʟᴏʀᴀ ᴘᴜʙʟɪᴄ sᴛᴀʙʟᴇシ︎',
+    buttons: buttons,
+    headerType: 4,
+    
+}
+
+  await message.client.sendMessage (message.jid, buttonMessage, MessageType.buttonsMessage)
+
     else {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*Copyright © 2022 | Queen Alora*' })
      }
+
+var BUTTHANDLE = '';
+    if (/\[(\W*)\]/.test(Config.HANDLERS)) {
+        BUTTHANDLE = Config.HANDLERS.match(/\[(\W*)\]/)[1][0];
+    } else {
+        BUTTHANDLE = '.';
+    }
+         
+
+ const buttons = [
+  {buttonId: BUTTHANDLE + 'abversion', buttonText: {displayText: SYSDTXT }, type: 1},
+  {buttonId: BUTTHANDLE + 'absystats', buttonText: {displayText: VER }, type: 1},
+ ]
+
+const buttonMessage = {
+    
+    contentText: "" ,
+    footerText: 'ᴀʟᴏʀᴀ ᴘᴜʙʟɪᴄ sᴛᴀʙʟᴇシ︎',
+    buttons: buttons,
+    headerType: 4
+    
+}
+
+  await message.client.sendMessage (message.jid, buttonMessage, MessageType.buttonsMessage)
+
     }));
 
-    Asena.addCommand({pattern: 'sysd', fromMe: true, desc: Lang.SYSD_DESC, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
+    Asena.addCommand({pattern: 'absystats', fromMe: true, desc: Lang.SYSD_DESC, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
 
         const child = spawnSync('neofetch', ['--stdout']).stdout.toString('utf-8')
         await message.sendMessage(
@@ -115,9 +164,9 @@ else if (Config.WORKTYPE == 'public') {
         );
     }));
 
-    Asena.addCommand({pattern: 'version', fromMe: false, desc: Lang.BOT_V}, (async (message, match) => {    
+    Asena.addCommand({pattern: 'abversion', fromMe: false, desc: Lang.BOT_V}, (async (message, match) => {    
     
-        await message.client.sendMessage(message.jid, 
+        abversion message.client.sendMessage(message.jid, 
                 `*⚝ Queen Alora Version ✆*\n\n` + 
                 '```Installed version :```\n' +
                 Lang.VERS_ION + 
