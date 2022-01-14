@@ -66,7 +66,7 @@ const btn = {
 }
 
   await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
-}
+
     }));
 
     Asena.addCommand({pattern: 'qasysstats', fromMe: true,  deleteCommand: false,  desc: Lang.SYSD_DESC, dontAddCommandList: true}, (async (message, match) => {
