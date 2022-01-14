@@ -15,7 +15,7 @@ const {spawnSync} = require('child_process');
 const Config = require('../config');
 const chalk = require('chalk');
 const axios = require('axios');
-
+const fs = require('fs');
 const Language = require('../language');
 const Lang = Language.getString('system_stats');
 
@@ -42,7 +42,7 @@ else MSG = Config.ALIVEMSG
     var image = await axios.get ('https://i.ibb.co/xY47y3L/20211210-075024.jpg', {responseType: 'arraybuffer'})
     var PIC = Buffer.from(image.data)
 
-    const media = await message.client.prepackMessage(message.jid, PIC, MessageType.image, { thumbnail: PIC })
+    const media = await message.client.prepareMessage(message.jid, PIC, MessageType.image, { thumbnail: PIC })
 
     var BUTTHANDLE = '';
     if (/\[(\W*)\]/.test(Config.HANDLERS)) {
