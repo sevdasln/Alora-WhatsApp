@@ -39,7 +39,7 @@ else MSG = Config.ALIVEMSG
 
  Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
             
-    var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+    var image = await axios.get ('https://i.ibb.co/xY47y3L/20211210-075024.jpg', {responseType: 'arraybuffer'})
     var PIC = Buffer.from(image.data)
 
     const media = await message.client.prepackMessage(message.jid, PIC, MessageType.image, { thumbnail: PIC })
