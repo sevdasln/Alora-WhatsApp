@@ -57,7 +57,7 @@ else MSG = Config.ALIVEMSG
   {buttonId: BUTTHANDLE + 'qasysstats', buttonText: {displayText: VER }, type: 1},
  ]
 
-const btn = {
+const buttonMessage = {
     
     contentText: MSG ,
     footerText: 'ᴀʟᴏʀᴀ ᴘᴜʙʟɪᴄ sᴛᴀʙʟᴇシ︎',
