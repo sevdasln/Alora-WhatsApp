@@ -52,7 +52,14 @@
 
 [![Run on Repl.it](https://repl.it/badge/github/phaticusthiccy/WhatsAsenaDuplicated)](https://repl.it/@xYAZUWA/Alora-Qr)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xRASHMITH/Alora-Installer.git)
+
+👑<b>『E』『N』『G』『L』『I』『S』『H』</b><br>
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xRASHMITH/Alora-Installer-En.git)
+
+👑<b>『S』『I』『N』『H』『A』『L』『A』</b><br>
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xRASHMITH/Alora-Installer-Si.git)
 
 <div align="center">
 ➣╭━━━┳╮╱╱╭━━━┳━━━┳━━━╮ 
