@@ -42,7 +42,7 @@ else MSG = Config.ALIVEMSG
     
     var BUTTHANDLE = '';
     if (/\[(\W*)\]/.test(Config.HANDLERS)) {
-        BUTTHANDLE = HANDLERS.match(/\[(\W*)\]/)[1][0];
+        BUTTHANDLE = Config.HANDLERS.match(/\[(\W*)\]/)[1][0];
     } else {
         BUTTHANDLE = '.';
     }
