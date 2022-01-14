@@ -33,7 +33,7 @@ var VER = ''
 if (Config.LANG == 'SI') VER = '📲 Version'
 if (Config.LANG == 'EN') VER = '📲 Version'
 
-var ALIVEMSG = ''
+var ALIVEMG = ''
 if (Config.ALIVEMSG == 'default') MSG = '╭──────────◅\n│\n│🎧ʜᴇʟʟᴏ ᴜꜱᴇʀ\n│╭──────────────╮\n│👸Ｉ ＡＭ A L I V E  \n👸  │╰──────────────╯\n│\n├►ɪ ᴀᴍ ᴀʟᴏʀᴀ ʙᴏᴛ\n│\n├▻ᴠᴇʀꜱɪᴏɴ - ᴡɪᴛʜ ʙᴜᴛᴛᴏɴꜱ\n│\n├▻ᴅᴇᴠᴇʟᴏᴘᴇʀ - xY̷A̷Z̷U̷W̷A̷\n│\n├▻ᴍᴇɴᴜ ᴄᴏᴍᴍᴀɴᴅ - .alora\n│\n│💞ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ👸\n│\n╰────────────▻\n\nـــ٨ـہہـ♡ـ٨ـہـ'
 else MSG = Config.ALIVEMSG
 
@@ -61,7 +61,7 @@ else MSG = Config.ALIVEMSG
 
 const buttonMessage = {
     
-    contentText: ALIVEMSG ,
+    contentText: ALIVEMG ,
     footerText: 'ᴀʟᴏʀᴀ ᴘᴜʙʟɪᴄ sᴛᴀʙʟᴇシ︎',
     buttons: buttons,
     headerType: 4,
