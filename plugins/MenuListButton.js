@@ -625,7 +625,7 @@ Asena.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Gives The Button Menu'
 ├─➢ ✪ Ex: *.joker Alora*
 │
 │✜✜✜✜✜✜✜✜✜✜✜✜✜✜✜✜✜✜✜    
-│❮✮✮ᖘꂦꅐꏂꋪꏂꀷ ꌃꌩ ꎭꌚ ꍏ꒒ꂦꋪꍏ✮✮❯
+│❮✮✮Not available temporary✮✮❯
 │❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂       
 └───────────────────────▷❯
 
@@ -640,7 +640,7 @@ const button = {
  buttonText: '📝CLICK ME👸✅',
  description: "╭╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╮\n👸✅ALORA COMMANDS✅👸 \n╰╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╯",
  sections: sections,
- listType: 1
+ listType: 2
 }
 
 await message.client.sendMessage(message.jid, button, MessageType.listMessage)
