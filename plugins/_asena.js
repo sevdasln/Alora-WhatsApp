@@ -17,8 +17,7 @@ if (Config.WORKTYPE == 'private') {
 
     Asena.addCommand({pattern: 'alorya ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
     
-     var menuimage = await axios.get ('https://i.ibb.co/SBDH0QV/20220114-180954.png', {responseType: 'arraybuffer'})
-       
+     
        
      var CMD_HELP = '';
         if (match[1] === '') {
@@ -65,7 +64,9 @@ if (Config.WORKTYPE == 'private') {
                     }
                 }
             );
-             await message.client.sendMessage(message.jid, Buffer.from (menuimage.data), MessageType.image, {mimetype: Mimetype.png, caption: " ╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n' + CMD_HELP"})
+  var menuimage = await axios.get ('https://i.ibb.co/SBDH0QV/20220114-180954.png', {responseType: 'arraybuffer'})
+                 
+ await message.client.sendMessage(message.jid, Buffer.from (menuimage.data), MessageType.image, {mimetype: Mimetype.png, caption: " ╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n' + CMD_HELP"})
 
    
         } else {
@@ -118,7 +119,9 @@ if (Config.WORKTYPE == 'private') {
                 }
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
-            await message.client.sendMessage(message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: " ╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n' + CMD_HELP"})
+  var menuimage = await axios.get ('https://i.ibb.co/SBDH0QV/20220114-180954.png', {responseType: 'arraybuffer'})
+                
+ await message.client.sendMessage(message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: " ╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n' + CMD_HELP"})
 
         }
     }));
@@ -127,8 +130,7 @@ else if (Config.WORKTYPE == 'public') {
 
     Asena.addCommand({pattern: 'alorya ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
    
-    var menuimage = await axios.get ('https://i.ibb.co/SBDH0QV/20220114-180954.png', {responseType: 'arraybuffer'})
-       
+    
         var CMD_HELP = '';
         if (match[1] === '') {
             Asena.commands.map(
@@ -174,7 +176,9 @@ else if (Config.WORKTYPE == 'public') {
                     }
                 }
             );
-            await message.client.sendMessage(message.jid, Buffer.from (menuimage.data), MessageType.image, {mimetype: Mimetype.png, caption: " ╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n' + CMD_HELP"})
+  var menuimage = await axios.get ('https://i.ibb.co/SBDH0QV/20220114-180954.png', {responseType: 'arraybuffer'})
+                 
+await message.client.sendMessage(message.jid, Buffer.from (menuimage.data), MessageType.image, {mimetype: Mimetype.png, caption: " ╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n' + CMD_HELP"})
 
 
         } else {
@@ -227,6 +231,8 @@ else if (Config.WORKTYPE == 'public') {
                 }
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
+var menuimage = await axios.get ('https://i.ibb.co/SBDH0QV/20220114-180954.png', {responseType: 'arraybuffer'})
+       
 await message.client.sendMessage(message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: " ╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n' + CMD_HELP"})
 
 
