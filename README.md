@@ -1,18 +1,13 @@
-## Thanks for Everything 
-### We will always remember you..
-
-- [Yusuf Usta](https://github.com/yusufusta)
-- [@fusufs](https://t.me/fusufs)
-
-<p align="center">
-  <a href="https://github.com/xRASHMITH/YrBot/">
+<div align="center">
+<p><a href="">
 ╔═══╗╔╗───╔═══╗╔═══╗╔═══╗
 ║╔═╗║║║───║╔═╗║║╔═╗║║╔═╗║
 ║║─║║║║───║║─║║║╚═╝║║║─║║
 ║╚═╝║║║─╔╗║║─║║║╔╗╔╝║╚═╝║
 ║╔═╗║║╚═╝║║╚═╝║║║║╚╗║╔═╗║
 ╚╝─╚╝╚═══╝╚═══╝╚╝╚═╝╚╝─╚╝
-</p>
+</a></p>
+</div>
 
 <p align="center">
   <a href="httsp://github.com/phaticusthiccy/WhatsAsenaDuplicated">
