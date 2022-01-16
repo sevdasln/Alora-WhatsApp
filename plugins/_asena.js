@@ -16,8 +16,11 @@ const Lang = Language.getString('_asena');
 if (Config.WORKTYPE == 'private') {
 
     Asena.addCommand({pattern: 'alorya ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-
-        var CMD_HELP = '';
+    
+     var image = await axios.get ('https://i.ibb.co/SBDH0QV/20220114-180954.png', {responseType: 'arraybuffer'})
+       
+       
+     var CMD_HELP = '';
         if (match[1] === '') {
             Asena.commands.map(
                 async (command) =>  {
@@ -124,7 +127,9 @@ if (Config.WORKTYPE == 'private') {
 else if (Config.WORKTYPE == 'public') {
 
     Asena.addCommand({pattern: 'alorya ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
+   
+    var image = await axios.get ('https://i.ibb.co/SBDH0QV/20220114-180954.png', {responseType: 'arraybuffer'})
+       
         var CMD_HELP = '';
         if (match[1] === '') {
             Asena.commands.map(
