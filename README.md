@@ -21,7 +21,7 @@
   </a>
 
 <div align="center">
-  <img src="https://i.ibb.co/xY47y3L/20211210-075024.jpg" width="320" height="200">
+  <img src="https://i.ibb.co/SBDH0QV/20220114-180954.png" width="290" height="330">
   <h1><font color='red'>👸 ALORA BOT ✅</font></h1>
 </div>
 <p align="center">
