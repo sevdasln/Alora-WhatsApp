@@ -1,4 +1,4 @@
-/*const Asena = require('../events');
+const Asena = require('../events');
 const {
     MessageType,
     GroupSettingChange,
@@ -14,9 +14,8 @@ const os = require('os');
 let tk = Config.WORKTYPE == 'public' ? false: true
 
 
-Asena.addCommand({pattern: 'alora', fromMe: false, desc: EFFECT_DESC}, (async (message, match) => {    
 
-    await message.sendMessage("╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n*⚒️ Command:* ```.vtalk```\n*📝 Description:* ```Starts to Eva voice chat.``` 
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, contextInfo: {mentionedJid: message.mention}, caption: `╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n*⚒️ Command:* ```.vtalk```\n*📝 Description:* ```Starts to Eva voice chat.``` 
 \n*⚒️ Command:* ```.fulleva ```
 *📝 Description:* ```Activates full functional Eva features. Turn your account into a ai chatbot!``` 
 *⌨️ Example:* ```.fulleva on / off```
@@ -339,7 +338,8 @@ Asena.addCommand({pattern: 'alora', fromMe: false, desc: EFFECT_DESC}, (async (m
 *📝 Description:* ```Performs simple math operations.``` 
 
 *⚒️ Command:* ```.whois```
-*📝 Description:* ```Displays metadata data of group or person.``` ");
+*📝 Description:* ```Displays metadata data of group or person.``` 
+`);
    
 
 
@@ -347,5 +347,5 @@ Asena.addCommand({pattern: 'alora', fromMe: false, desc: EFFECT_DESC}, (async (m
     })); 
 } 
 
-*/ 
+
         
