@@ -15,7 +15,7 @@ let tk = Config.WORKTYPE == 'public' ? false: true
 
 
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, contextInfo: {mentionedJid: message.mention}, caption: `╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n*⚒️ Command:* ```.vtalk```\n*📝 Description:* ```Starts to Eva voice chat.``` 
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, contextInfo: {mentionedJid: message.mention}, caption: `▹╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n*⚒️ Command:* ```.vtalk```\n*📝 Description:* ```Starts to Eva voice chat.``` 
 \n*⚒️ Command:* ```.fulleva ```
 *📝 Description:* ```Activates full functional Eva features. Turn your account into a ai chatbot!``` 
 *⌨️ Example:* ```.fulleva on / off```
@@ -24,7 +24,7 @@ let tk = Config.WORKTYPE == 'public' ? false: true
 *📝 Description:* ```Gives The Button Menu``` 
 
 *⚒️ Command:* ```.owner```
-*📝 Description:* ```down;load passpepr``` 
+*📝 Description:* ```How Are You``` 
 
 *⚒️ Command:* ```.xmedia```
 *📝 Description:* ```It is a plugin with more than 25 media tools.``` 
@@ -338,8 +338,7 @@ let tk = Config.WORKTYPE == 'public' ? false: true
 *📝 Description:* ```Performs simple math operations.``` 
 
 *⚒️ Command:* ```.whois```
-*📝 Description:* ```Displays metadata data of group or person.``` 
-`);
+*📝 Description:* Displays metadata data of group or person. `);
    
 
 
