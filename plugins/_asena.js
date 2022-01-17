@@ -122,7 +122,7 @@ if (Config.WORKTYPE == 'private') {
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
   var menuimage = await axios.get ('https://i.ibb.co/SBDH0QV/20220114-180954.png', {responseType: 'arraybuffer'})
                 
- await message.client.sendMessage(message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: " ╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n' + CMD_HELP"})
+ await message.client.sendMessage(message.jid, Buffer.from (menuimage.data), MessageType.image, {mimetype: Mimetype.png, caption: " ╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n' + CMD_HELP"})
 
         }
     }));
@@ -234,7 +234,7 @@ await message.client.sendMessage(message.jid, Buffer.from (menuimage.data), Mess
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
 var menuimage = await axios.get ('https://i.ibb.co/SBDH0QV/20220114-180954.png', {responseType: 'arraybuffer'})
        
-await message.client.sendMessage(message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: " ╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n' + CMD_HELP"})
+await message.client.sendMessage(message.jid, Buffer.from (menuimage.data), MessageType.image, {mimetype: Mimetype.png, caption: " ╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n' + CMD_HELP"})
 
 
 
