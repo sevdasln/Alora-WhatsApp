@@ -8,7 +8,7 @@ WhatsAsena - Yusuf Usta
 
 const Asena = require('../events');
 const Config = require('../config');
-const {MessageType,Mimetype,MessageOptions} = require('@adiwajshing/baileys');
+const {WAConnection, MessageOptions, MessageType, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 
 const Language = require('../language');
