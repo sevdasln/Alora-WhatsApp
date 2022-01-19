@@ -16,7 +16,7 @@ let tk = Config.WORKTYPE == 'public' ? false: true
 Asena.addCommand({pattern: 'testm ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
 
- var maximage = await axios.get ('https://i.ibb.co/SBDH0QV/20220114-180954.png', {responseType: 'arraybuffer'})
+ var maximage = await axios.get ('https://i.ibb.co/b6KLMDP/MENULOGO.jpg', {responseType: 'arraybuffer'})
 
     await message.sendMessage(Buffer(maximage.data), MessageType.image, {mimetype: Mimetype.png, contextInfo: {mentionedJid: message.mention}, caption: `▹╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n📝Give Me Some time for this menu`}) 
 }));
