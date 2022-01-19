@@ -40,7 +40,7 @@ const buttonMessage = {
     footerText: '© ǫᴜᴇᴇɴ ᴀʟᴏʀᴀ ᴛᴇꜱᴛ ',
     buttons: buttons,
     headerType: 4,
-    imageMessage: ""
+    
 }
 
 const sendMsg = await message.client.sendMessage(message.jid, buttonMessage, MessageType.buttonsMessage)
