@@ -43,7 +43,7 @@ const buttonMessage = {
     imageMessage: ""
 }
 
-const sendMsg = await conn.sendMessage(id, buttonMessage, MessageType.buttonsMessage)
+const sendMsg = await message.client.sendMessage(id, buttonMessage, MessageType.buttonsMessage)
 
 }));
 
