@@ -39,10 +39,10 @@ const buttons = [
 ]
 
 const buttonMessage = {
-    contentText: MSG,
+    contentText: 'Wow Alive',
     footerText: '© ǫᴜᴇᴇɴ ᴀʟᴏʀᴀ ᴛᴇꜱᴛ ',
     buttons: buttons,
-    headerType: 4,
+    headerType: 4
     
 }
 
