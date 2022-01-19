@@ -43,7 +43,7 @@ const buttonMessage = {
     
 }
 
-const sendMsg = await message.client.sendMessage(message.jid, buttonMessage, MessageType.proto.buttonsMessage.imageMessage:'https://i.ibb.co/xY47y3L/20211210-075024.jpg')
+const sendMsg = await message.client.sendMessage(message.jid, buttonMessage, MessageType.proto.buttonsMessage.imageMessage:'')
 
 }));
 
@@ -51,13 +51,13 @@ Asena.addCommand({ pattern: 'absysdtxt', fromMe: tk, desc: 'Gives The Button Men
 }, (async (message, match) => {
 
 
-await message.client.sendMessage(message.jid, fs.readFileSync("./media/LOGOA.png"), MessageType.image, { caption: '````Os:Chromimum\nSsd:256GB SanDisk\nMemory:12GB\nInternet▱\nDOWNLOAD-30mbps\nUPLOAD:-15mbps```'})
+await message.client.sendMessage(message.jid, fs.readFileSync("./media/SYSDTXTLOGO.jpg"), MessageType.image, { caption: '````Os:Chromimum\nSsd:256GB SanDisk\nMemory:12GB\nInternet▱\nDOWNLOAD-30mbps\nUPLOAD:-15mbps```'})
 }));
 
 Asena.addCommand({ pattern: 'abversion', fromMe: tk, desc: 'Gives The Button Menu'
 }, (async (message, match) => {
 
-await message.client.sendMessage(message.jid, fs.readFileSync("./media/LOGOA.png"), MessageType.image, { caption: '```MS.ALORA V2.2.9```'})
+await message.client.sendMessage(message.jid, fs.readFileSync("./media/VERSLOGO.jpg"), MessageType.image, { caption: '```MS.ALORA V2.2.9```'})
 }));
 
   
