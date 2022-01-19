@@ -1,3 +1,20 @@
+const Asena = require('../events');
+const {
+    MessageType,
+    GroupSettingChange,
+    Mimetype,
+    MessageOptions
+} = require('@adiwajshing/baileys');
+const fs = require('fs');
+const Config = require('../config')
+const axios = require('axios')
+const request = require('request');
+const os = require('os');
+
+let tk = Config.WORKTYPE == 'public' ? false: true
+
+Asena.addCommand({ pattern: 'alivet', fromMe: tk, desc: 'Gives The Button Menu'
+}, (async (message, match) => {
 
 // send a buttons message!
 const buttons = [
@@ -13,3 +30,5 @@ const buttonMessage = {
 }
 
 const sendMsg = await conn.sendMessage(id, buttonMessage, MessageType.buttonsMessage)
+
+}));
