@@ -1,3 +1,6 @@
+/*Dont try to copy 💻 Try to make something new*/
+
+
 const Asena = require('../events');
 const {
     MessageType,
