@@ -24,7 +24,7 @@ Asena.addCommand({pattern: 'song ?(.*)', fromMe: tk, desc: 'play song' , dontAdd
 	
         if(!status) return await message.sendMessage('*NO RESULT FOUND*')
 	
-        await message.client.sendMessage(message.jid, LOAD_ING , MessageType.text, { quoted: message.data });
+        await message.client.sendMessage(message.jid, `LOADING` , MessageType.text, { quoted: message.data });
         let msg = '```'
         msg +=  `TITLE :${result.title}\n\n`        
         msg += '```'
