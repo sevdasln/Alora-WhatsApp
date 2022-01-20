@@ -36,21 +36,6 @@ Asena.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Gives The Button Menu'
         
 
 
-    var time = new Date().toLocaleString('SI', { timeZone: 'Asia/Colombo' }).split(' ')[1]
-
-    var wish = ''
-     
-    var eva = ''
-
-    var auto_bio = ''
-
-    var language = ''
-
-if (hrs < 12) wish = '*𝘎𝘖𝘖𝘋 𝘔𝘖𝘙𝘕𝘐𝘕𝘎 ☀️*'
-if (hrs >= 12 && hrs <= 17) wish = '*𝘎𝘖𝘖𝘋 𝘈𝘍𝘛𝘌𝘙𝘕𝘖𝘖𝘕 🌤️*'
-if (hrs >= 17 && hrs <= 19) wish = '*𝘎𝘖𝘖𝘋 𝘌𝘝𝘌𝘕𝘐𝘕𝘎 🌌*'
-if (hrs >= 19 && hrs <= 24) wish = '*𝘎𝘖𝘖𝘋 𝘕𝘐𝘎𝘏𝘛 🌝*'
-
 
         
 //list message
@@ -658,6 +643,24 @@ if (hrs >= 19 && hrs <= 24) wish = '*𝘎𝘖𝘖𝘋 𝘕𝘐𝘎𝘏𝘛 🌝*
 ]
 
 const sections = [{title: "Section 2", rows: rows}]
+
+
+    var time = new Date().toLocaleString('SI', { timeZone: 'Asia/Colombo' }).split(' ')[1]
+
+    var wish = ''
+     
+    var eva = ''
+
+    var auto_bio = ''
+
+    var language = ''
+
+if (hrs < 12) wish = '*𝘎𝘖𝘖𝘋 𝘔𝘖𝘙𝘕𝘐𝘕𝘎 ☀️*'
+if (hrs >= 12 && hrs <= 17) wish = '*𝘎𝘖𝘖𝘋 𝘈𝘍𝘛𝘌𝘙𝘕𝘖𝘖𝘕 🌤️*'
+if (hrs >= 17 && hrs <= 19) wish = '*𝘎𝘖𝘖𝘋 𝘌𝘝𝘌𝘕𝘐𝘕𝘎 🌌*'
+if (hrs >= 19 && hrs <= 24) wish = '*𝘎𝘖𝘖𝘋 𝘕𝘐𝘎𝘏𝘛 🌝*'
+
+
 
 const button = {
  buttonText: '📝CLICK ME👸✅',
