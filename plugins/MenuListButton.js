@@ -25,6 +25,26 @@ const Config = require('../config')
 const axios = require('axios')
 const request = require('request');
 const os = require('os');
+const hrs = new Date().getHours({ timeZone: 'Asia/Colombo' })
+
+
+Amazon.addCommand({pattern: 'menu', fromMe: tk, desc: Lang.MENU}, (async (message, match) => {
+    var time = new Date().toLocaleString('SI', { timeZone: 'Asia/Colombo' }).split(' ')[1]
+
+    var wish = ''
+     
+    var eva = ''
+
+    var auto_bio = ''
+
+    var language = ''
+
+if (hrs < 12) wish = '*𝘎𝘖𝘖𝘋 𝘔𝘖𝘙𝘕𝘐𝘕𝘎 ☀️*'
+if (hrs >= 12 && hrs <= 17) wish = '*𝘎𝘖𝘖𝘋 𝘈𝘍𝘛𝘌𝘙𝘕𝘖𝘖𝘕 🌤️*'
+if (hrs >= 17 && hrs <= 19) wish = '*𝘎𝘖𝘖𝘋 𝘌𝘝𝘌𝘕𝘐𝘕𝘎 🌌*'
+if (hrs >= 19 && hrs <= 24) wish = '*𝘎𝘖𝘖𝘋 𝘕𝘐𝘎𝘏𝘛 🌝*'
+
+
 
 let tk = Config.WORKTYPE == 'public' ? false: true
 
@@ -338,6 +358,8 @@ Asena.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Gives The Button Menu'
 *🔅𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇:*  𝖦𝗂𝗏𝖾𝗌 𝗍𝗁𝖾 𝖼𝗁𝖺𝗍𝗌 𝗃𝗂𝖽
 ` , rowId:"rowid4"},
 
+const sections = [{title: "Section 1", rows: rows}]
+
 {title: `👸🧭NEW LOGO LIST🧭👸`, description: ` ▻\n\n
 🔰❮Will be added soon...❯
 ✅❮Check the Main Command = .a2maker ❯
@@ -634,11 +656,11 @@ Asena.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Gives The Button Menu'
 
 ]
 
-const sections = [{title: "Section 1", rows: rows}]
+const sections = [{title: "Section 2", rows: rows}]
 
 const button = {
  buttonText: '📝CLICK ME👸✅',
- description: "╭╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╮\n👸✅ALORA COMMANDS✅👸 \n╰╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╯",
+ description: "╭╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╮\n👸✅ALORA COMMANDS✅👸 \n╰╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╯\n\n╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」\n│\n│ᴛʏᴘᴇ: .alora to get full Command list*\n├─────────●●►\n│👋Hello User,*  `+wish+`\n│👤Name:* Ms.Alora\n│💎Role:* Developer\n│Time⌚:* `+time+`\n│📡Server:* Github\n│📦Frameworks:* Nodejs\n│☬Working As*\n│🛡️ `+Config.WORKTYPE+`*\n│ \n╰──────────▢▹►",
  sections: sections,
  listType: 1
 }
