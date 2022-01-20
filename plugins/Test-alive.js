@@ -54,7 +54,7 @@ Asena.addCommand({ pattern: 'absysdtxt', fromMe: tk, desc: 'Gives The Button Men
 }, (async (message, match) => {
 
 
-await message.client.sendMessage(message.jid, fs.readFileSync("./media/SYSDTXTLOGO.jpg"), MessageType.image, { caption: '````Os:Chromimum\nSsd:256GB SanDisk\nMemory:12GB\nInternet▱\nDOWNLOAD-30mbps\nUPLOAD:-15mbps```'})
+await message.client.sendMessage(message.jid, fs.readFileSync("./media/SYSDTXTLOGO.jpg"), MessageType.image, { caption: '─▹─═─═─═─═─═─═─═─═─═─▹─\n```▢Name-AloraDev\n▹Os-Selenium\n▹Memory - 16GB\n▹Processor-AMD RYZEN5\n▹Language -English/Sinhala/Azeric/Turkish\n▹Image size-730Mb\n▹Image from -:fusufs/\n▹Wa Web Library - Baileys (^3.5.2)\n▹Whatsapp Ver.-3.3234.9\n▹FrameWork-Node.js/Javascript/Shell\n▹Hosted in-Github\n▹Deployed in-Heroku\n▹Upload Speed-Not Measurable\n▹Download Speed-Not Measurable```\n\n\n➣✾ـٰٰٰٰٖٖٖٖٜ۬ـٰٰٰٖٖٖٜ۬ـٰٰٖٖٜ۬ـٰٖٜ۬ـٰٖٜ۬ـٰٰٖٖٜ۬ـٰٰٰٖٖٖٜ۬ـٰٰٰٰٖٖٖٖٜ۬ـٰٰٰٖٖٖٜ۬ـٰٰٖٖٜ۬ـٰٖٜ۬ـٰٖٜ۬ـٰٰٖٖٜ۬ـٰٰٰٖٖٖٜ۬ـٰٰٰٰٖٖٖٖٜ۬✾➣'})
 }));
 
 Asena.addCommand({ pattern: 'abversion', fromMe: tk, desc: 'Gives The Button Menu'
