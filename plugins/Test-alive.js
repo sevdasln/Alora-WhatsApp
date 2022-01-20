@@ -42,7 +42,7 @@ const buttonMessage = {
     contentText: 'Wow Alive',
     footerText: '© ǫᴜᴇᴇɴ ᴀʟᴏʀᴀ ᴛᴇꜱᴛ ',
     buttons: buttons,
-    headerType: 4
+    headerType: 1
     
 }
 
