@@ -661,7 +661,7 @@ const sections = [{title: "Section 2", rows: rows}]
 
 const button = {
  buttonText: '📝CLICK ME👸✅',
- description: "╭╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╮\n👸✅ALORA COMMANDS✅👸 \n╰╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╯\n\n╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」\n│\n│ᴛʏᴘᴇ: .alora to get full Command list*\n├─────────●●►\n│👋Hello User,*  `+wish+`\n│👤Name:* Ms.Alora\n│💎Role:* Developer\n│Time⌚:* `+time+`\n│📡Server:* Github\n│📦Frameworks:* Nodejs\n│☬Working As*\n│🛡️ `+Config.WORKTYPE+`*\n│ \n╰──────────▢▹►",
+ description: "╭╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╮\n👸✅ALORA COMMANDS✅👸 \n╰╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╯\n\n╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」\n│\n│ᴛʏᴘᴇ: .alora to get full Command list*\n├─────────●●►\n│👋Hello User,*  `+wish+` \n│👤Name:* Ms.Alora\n│💎Role:* Developer\n│Time⌚:* `+time+` \n│📡Server:* Github\n│📦Frameworks:* Nodejs\n│☬Working As*\n│🛡️ `+Config.WORKTYPE+`* \n│ \n╰──────────▢▹►",
  sections: sections,
  listType: 1
 }
