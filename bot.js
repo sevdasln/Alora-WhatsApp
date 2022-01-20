@@ -439,13 +439,13 @@ ${chalk.blue.italic('🧭 Connecting to WhatsApp...▶')}`);
                             await command.function(whats, match);
                         } catch (error) {
                             if (config.LANG == 'EN') {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/LOGOA.png"), MessageType.image, { caption: '*👸 ALORA BOT 👸*  WORKING AS '+config.WORKTYPE+'!!\n\n _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_✅Support 01▷ https://chat.whatsapp.com/C2jBLMsmk7v5DC0yMHYWIV \n\n*Error:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/ERRLOGO.jpg"), MessageType.image, { caption: '*👸 ALORA BOT 👸*  WORKING AS '+config.WORKTYPE+'!!\n\n _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_✅Support 01▷ https://chat.whatsapp.com/C2jBLMsmk7v5DC0yMHYWIV \n\n*Error:* ```' + error + '```\n\n' });
                                 
                             } else if (config.LANG == 'SI') {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/LOGOA.png"), MessageType.image, { caption: '*👸 ALORA BOT 👸*  '+config.WORKTYPE+' ලෙස ක්‍රියා කරයි!!\n\n _මෙය ඔබගේ LOG අංකයයි මෙහි විධන භාවිතයෙන් වළකින්න_\n▷ඔබට යම් ගැටලුවක් ඇත්නම් අපගේ සහය සමූහට ලිවිය හැක.\nf_✅Support 01▷ https://chat.whatsapp.com/C2jBLMsmk7v5DC0yMHYWIV \n\n*දෝෂය:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/ERRLOGO.jpg"), MessageType.image, { caption: '*👸 ALORA BOT 👸*  '+config.WORKTYPE+' ලෙස ක්‍රියා කරයි!!\n\n _මෙය ඔබගේ LOG අංකයයි මෙහි විධන භාවිතයෙන් වළකින්න_\n▷ඔබට යම් ගැටලුවක් ඇත්නම් අපගේ සහය සමූහට ලිවිය හැක.\nf_✅Support 01▷ https://chat.whatsapp.com/C2jBLMsmk7v5DC0yMHYWIV \n\n*දෝෂය:* ```' + error + '```\n\n' });
                                 
                             } else {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/LOGOA.png"), MessageType.image, { caption: '*👸 ALORA BOT 👸*  WORKING AS '+config.WORKTYPE+'!!\n\n _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_✅Support 01▷ https://chat.whatsapp.com/C2jBLMsmk7v5DC0yMHYWIV \n\n*Error:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/ERRLOGO.jpg"), MessageType.image, { caption: '*👸 ALORA BOT 👸*  WORKING AS '+config.WORKTYPE+'!!\n\n _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_✅Support 01▷ https://chat.whatsapp.com/C2jBLMsmk7v5DC0yMHYWIV \n\n*Error:* ```' + error + '```\n\n' });
                             }
                         }
                     }
