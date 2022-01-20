@@ -640,7 +640,7 @@ const button = {
  buttonText: '📝CLICK ME👸✅',
  description: "╭╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╮\n👸✅ALORA COMMANDS✅👸 \n╰╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╯",
  sections: sections,
- listType: 2
+ listType: 1
 }
 
 await message.client.sendMessage(message.jid, button, MessageType.listMessage)
