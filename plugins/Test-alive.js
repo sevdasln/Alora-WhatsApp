@@ -17,7 +17,7 @@ const os = require('os');
 
 let tk = Config.WORKTYPE == 'public' ? false: true
 
-Asena.addCommand({ pattern: 'thisisalive', fromMe: tk, desc: 'Gives The Button Menu'
+Asena.addCommand({ pattern: 'alive', fromMe: tk, desc: 'Gives The Button Menu'
 }, (async (message, match) => {
 
 var SYSDTXT = ''
