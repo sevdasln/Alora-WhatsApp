@@ -33,10 +33,17 @@ else MSG = Config.ALIVEMSG
 
 //Handlers ^[.!;]
 
+var PREFIXBTN = '';
+    if (/\[(\W*)\]/.test(Config.HANDLERS)) {
+        PREFIXBTN = Config.HANDLERS.match(/\[(\W*)\]/)[1][0];
+    } else {
+        PREFIXBTN = '.';
+    }
+
 // send a buttons message!
 const buttons = [
-  {buttonId: 'absysdtxt', buttonText: {displayText: '✆ System status' }, type: 1},
-  {buttonId: 'abversion', buttonText: {displayText: '☩ Version' }, type: 1}
+  {buttonId: PREFIXBTN + 'absysdtxt', buttonText: {displayText: '✆ System status' }, type: 1},
+  {buttonId: PREFIXBTN + 'abversion', buttonText: {displayText: '☩ Version' }, type: 1}
 ]
 
 const buttonMessage = {
