@@ -35,8 +35,8 @@ else MSG = Config.ALIVEMSG
 //AmdiHandlers [.!#]
 
 var PREFIXBTN = '';
-    if ^[.!;].test(Config.HANDLERS)) {
-        PREFIXBTN = Config.HANDLERS.match(^[.!;];
+    if (/\[(\W*)\]/.test(Config.HANDLERS)) {
+        PREFIXBTN = Config.HANDLERS.match(/\[(\W*)\]/)[1][0];
     } else {
         PREFIXBTN = '.';
     }
