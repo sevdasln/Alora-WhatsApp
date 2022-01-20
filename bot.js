@@ -140,7 +140,7 @@ ${chalk.blue.italic('🧭 Connecting to WhatsApp...▶')}`);
         });
 // ════════════════════PLUGGINS SUCCESS🔰🔰🔰
         console.log(
-            chalk.green.bold('👸ALORA PUBLIC WORKING!➘')
+            chalk.green.bold('Congrats...👸ALORA is ONLINE!!')
        );
         
          if (config.LANG == 'EN') {
@@ -150,7 +150,7 @@ ${chalk.blue.italic('🧭 Connecting to WhatsApp...▶')}`);
              await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/LOGOA.png"), MessageType.image, { caption: `*🏹Queen Alora works in ${config.WORKTYPE}.👸*\n\n _Please do not try the_ command here.This is your login number._\n_You can try commands in any chat:) _\n\n*Use the .alora command to recieve your command list. Or use .menu for button menu*\n\n*Your bot is ${config.WORKTYPE} active. Use the command * _.setvar WORK_TYPE: private_ to modify.*\n\n*github - https://github.com/xYAZUWA/AloraButtons*\n\n*Thanks for using Queen Alora ❤👸*`});
              
          } else {
-             await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/LOGOA.png"), MessageType.image, { caption: `*🏹Queen Alora works in ${Config.WORKTYPE}.👸*\n\n _Please do not try the_ command here.This is your login number._\n_You can try commands in any chat:) _\n\n*Use the .alora command to recieve your command list. Or use .menu for button menu*\n\n*Your bot is ${Config.WORKTYPE} active. Use the command * _.setvar WORK_TYPE: private_ to modify.*\n\n*github - https://github.com/xYAZUWA/AloraButtons*\n\n*Thanks for using Queen Alora ❤👸*`});
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./media/LOGOA.png"), MessageType.image, { caption: `*🏹Queen Alora works in ${config.WORKTYPE}.👸*\n\n _Please do not try the_ command here.This is your login number._\n_You can try commands in any chat:) _\n\n*Use the .alora command to recieve your command list. Or use .menu for button menu*\n\n*Your bot is ${config.WORKTYPE} active. Use the command * _.setvar WORK_TYPE: private_ to modify.*\n\n*github - https://github.com/xYAZUWA/AloraButtons*\n\n*Thanks for using Queen Alora ❤👸*`});
         }
      });
     
