@@ -32,10 +32,11 @@ if (Config.ALIVEMSG == 'default') MSG = '╭──────────◅\n�
 else MSG = Config.ALIVEMSG
 
 //Handlers ^[.!;]
+//AmdiHandlers [.!#]
 
 var PREFIXBTN = '';
-    if (/\[(\W*)\]/.test(Config.HANDLERS)) {
-        PREFIXBTN = Config.HANDLERS.match(/\[(\W*)\]/)[1][0];
+    if ^[.!;].test(Config.HANDLERS)) {
+        PREFIXBTN = Config.HANDLERS.match(^[.!;];
     } else {
         PREFIXBTN = '.';
     }
