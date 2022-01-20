@@ -4,9 +4,9 @@
 FROM fusuf/whatsasena:latest
 
 
-RUN git clone https://github.com/xRASHMITH/Alora-WhatsApp /root/Alora-WhatsApp
+RUN git clone https://github.com/xRASHMITH/Alora-WhatsApp /root/WhatsAsenaDuplicated
 
-WORKDIR /root/Alora-WhatsApp/
+WORKDIR /root/WhatsAsenaDuplicated/
 
 ENV TZ=Europe/Istanbul
 
