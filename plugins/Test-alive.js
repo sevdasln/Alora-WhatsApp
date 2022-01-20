@@ -1,4 +1,5 @@
-/*Dont try to copy 💻 Try to make something new*/
+/*Dont try to copy 💻 Try to make something new
+Credits goes to BlackAmda's Father */
 
 
 const Asena = require('../events');
