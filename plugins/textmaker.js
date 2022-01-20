@@ -134,8 +134,8 @@ Asena.addCommand({pattern: 'a2maker$', fromMe: wk, desc: desc_msg}, (async (mess
         desc_cmd = 'ℹ️ *Açıklama:* _'
     } else { 
         usage_cmd = '*⌨️ Example:* _'
-        command_cmd = '💻 *Command:* '
-        desc_cmd = 'ℹ️ *Description:* _'
+        command_cmd = '🏹 *Command:* '
+        desc_cmd = '⚙️ *Description:* _'
     }
     const msg = command_cmd + '```.textdevil``` \n' + t1 + '_\n' + usage_cmd + '.textdevil Phaticusthiccy_\n\n' +
         command_cmd + '```.textbear``` \n' + desc_cmd + t2 + '_\n' + usage_cmd + '.textbear Phaticusthiccy_\n\n' +
@@ -177,8 +177,8 @@ Asena.addCommand({pattern: 'textdevil ?(.*)', fromMe: wk, dontAddCommandList: tr
                   });
               };
 
-              await download(`${data}`, '/root/WhatsAsenaDuplicated/devil.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/devil.jpg'), MessageType.image, { caption: 'Made by WhatsAsena' })
+              await download(`${data}`, '/root/Alora-WhatsApp/devil.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/Alora-WhatsApp/devil.jpg'), MessageType.image, { caption: 'Made by WhatsAsena' })
               })
           } catch(err) { 
               console.log(err)
