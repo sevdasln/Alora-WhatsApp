@@ -28,7 +28,14 @@ const os = require('os');
 const hrs = new Date().getHours({ timeZone: 'Asia/Colombo' })
 
 
-Amazon.addCommand({pattern: 'menu', fromMe: tk, desc: Lang.MENU}, (async (message, match) => {
+let tk = Config.WORKTYPE == 'public' ? false: true
+
+
+Asena.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Gives The Button Menu'
+}, (async (message, match) => {
+        
+
+
     var time = new Date().toLocaleString('SI', { timeZone: 'Asia/Colombo' }).split(' ')[1]
 
     var wish = ''
@@ -45,11 +52,6 @@ if (hrs >= 17 && hrs <= 19) wish = '*𝘎𝘖𝘖𝘋 𝘌𝘝𝘌𝘕𝘐𝘕�
 if (hrs >= 19 && hrs <= 24) wish = '*𝘎𝘖𝘖𝘋 𝘕𝘐𝘎𝘏𝘛 🌝*'
 
 
-
-let tk = Config.WORKTYPE == 'public' ? false: true
-
-Asena.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Gives The Button Menu'
-}, (async (message, match) => {
         
 //list message
 
@@ -358,7 +360,6 @@ Asena.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Gives The Button Menu'
 *🔅𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇:*  𝖦𝗂𝗏𝖾𝗌 𝗍𝗁𝖾 𝖼𝗁𝖺𝗍𝗌 𝗃𝗂𝖽
 ` , rowId:"rowid4"},
 
-const sections = [{title: "Section 1", rows: rows}]
 
 {title: `👸🧭NEW LOGO LIST🧭👸`, description: ` ▻\n\n
 🔰❮Will be added soon...❯
