@@ -177,8 +177,8 @@ Asena.addCommand({pattern: 'textdevil ?(.*)', fromMe: wk, dontAddCommandList: tr
                   });
               };
 
-              await download(`${data}`, '/root/Alora-WhatsApp/devil.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/Alora-WhatsApp/devil.jpg'), MessageType.image, { caption: 'Made by WhatsAsena' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/devil.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/devil.jpg'), MessageType.image, { caption: 'Made by WhatsAsena' })
               })
           } catch(err) { 
               console.log(err)
