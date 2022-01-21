@@ -1,4 +1,4 @@
-/*If U copy I dont take actions 😂*/ 
+/*If U copy I dont take actions 😂
 
 
 const Asena = require('../events');
