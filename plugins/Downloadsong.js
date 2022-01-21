@@ -30,3 +30,4 @@ Asena.addCommand({pattern: 'song ?(.*)', fromMe: tk, desc: 'play song' , dontAdd
         msg += '```'
          return await message.client.sendMessage(message.jid,Buffer.from(img.data), MessageType.image, {mimetype: Mimetype.jpg , caption: msg })
         });
+*/
