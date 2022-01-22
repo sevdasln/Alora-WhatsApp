@@ -1,3 +1,5 @@
+
+
 /*
 █▀▀█ █░░ █▀▀█ █▀▀█ █▀▀█   █▀▀▄ █▀▀█ ▀▀█▀▀
 █▄▄█ █░░ █░░█ █▄▄▀ █▄▄█   █▀▀▄ █░░█ ░░█░░
@@ -19,37 +21,76 @@ const request = require('request');
 const os = require('os');
 
 let tk = Config.WORKTYPE == 'public' ? false: true
+   
+ Asena.addCommand({pattern: 'hdsong ?(.*)', fromMe: tk, desc: Lang.SONG_DESC}, (async (message, match) => { 
 
-Asena.addCommand({ pattern: 'owner', fromMe: tk, desc: 'down;load passpepr'
-}, (async (message, match) => {
-        // send a list message!
-        const rows = [{
-                 title: '  🌹𝖭𝖺𝗆𝖾 ', description: "  《《=====●|:|🔅|:|●=====》》\n\n ⌨︎ 𝖢𝗈𝖽𝖾𝖽 𝖻𝗒 - 𝗑𝖸𝖠𝖹𝖴𝖶𝖠 (helps) & 𝖸𝖠𝖴𝖶𝖠𝗑 (Developer) " , rowId: "rowid1"
-           },
-           {
-                 title: '  📝𝖢𝗎𝗋𝗋𝖾𝗇𝗍𝗅𝗒 𝖫𝖾𝖺𝗋𝗇𝗂𝗇𝗀 ', descrition: "  《《=====●|:|🔅|:|●=====》》\n\n ⚒️ <𝗁𝗍𝗆𝗅> [𝖼𝗌𝗌] " , rowId: "rowid2"
-            },     
-            {  
-                 title: '  🏷️ 𝖫𝗂𝗏𝖾 𝖨𝗇 ', description: "  《《=====●|:|🔅|:|●=====》》\nn 𝖢𝗎𝗋𝗋𝖾𝗇𝗍 𝗅𝗈𝖼𝖺𝗍𝗂𝗈𝗇 - 𝖦𝖺𝗅𝗅𝖾" , rowId: "rowid3"
-            },
+     if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text, {quoted: message.data});   
+    let arama = await yts(match[1]);
+    arama = arama.all;
+    if(arama.length < 1) return await message.client.sendMessage(message.jid,Lang.NO_RESULT,MessageType.text, {quoted: message.data});
+    var downloading = await message.client.sendMessage(message.jid,Lang.DOWNLOADING_SONG,MessageType.text, {quoted: message.data});
+  
+    let title = arama[0].title.replace(' ', '+');
+    let stream = ytdl(arama[0].videoId, {
+        quality: 'highestaudio',
+    });
+    
+    got.stream(arama[0].image).pipe(fs.createWriteStream(title + '.jpg'));
+    ffmpeg(stream)
+        .audioBitrate(320)
+        .save('./' + title + '.mp3')
+        .on('end', async () => {
+            const writer = new ID3Writer(fs.readFileSync('./' + title + '.mp3'));
+            writer.setFrame('TIT2', arama[0].title)
+                .setFrame('TPE1', [arama[0].author.name])
+                .setFrame('APIC', {
+                    type: 3,
+                    data: fs.readFileSync(title + '.jpg'),
+                        description: arama[0].description
+                });
+            writer.addTag();
             {
-                  title: '  🛡️ 𝖸𝗈𝗎𝗍𝗎𝖻𝖾 𝖼𝗁𝖺𝗇𝗇𝖾𝗅 ', description: "  《《=====●|:|🔅|:|●=====》》\n\n ▶️ 𝖸𝗈𝗎𝗍𝗎𝖻𝖾 = 𝖸𝖺𝗌𝗂𝗇𝖽𝗎 𝖱𝖺𝗌𝗁𝗆𝗂𝗍𝗁 ➲ ", rowId: "rowid4"
-            },
-                        {
-                  title: '  🟨 WhatsApp Number ', description: "  《《=====●|:|🔅|:|●=====》》\n\𝗇 wa.me//94716314859 ", rowId: "rowid5"
-            }]
+                var uploading = await message.client.sendMessage(message.jid,Lang.UPLOADING_SONG,MessageType.text, {quoted: message.data});
+                await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true});
+                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.document, {quoted: message.data, filename: title + '.mp3', mimetype: 'audio/mpeg'});
+                return await message.client.deleteMessage(message.jid, {id: uploading.key.id, remoteJid: message.jid, fromMe: true})
+            }
+            
+      });
+}))
 
-        const sections = [{
-            title: "𝖮𝗐𝗇𝖾𝗋 𝖣𝖾𝗍𝖺𝗂𝗅𝗌", rows: rows
-        }]
+Asena.addCommand({pattern: 'sdsong ?(.*)', fromMe: tk, desc: Lang.SONG_DESC}, (async (message, match) => { 
 
-        const button = {
-            buttonText: 'Click Me',
-            description: "Owner Details",
-            sections: sections,
-            listType: 1
-        }
-
-        await message.client.sendMessage(message.jid, button, MessageType.listMessage)
-
-    }));
+     if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text, {quoted: message.data});   
+    let arama = await yts(match[1]);
+    arama = arama.all;
+    if(arama.length < 1) return await message.client.sendMessage(message.jid,Lang.NO_RESULT,MessageType.text, {quoted: message.data});
+    var downloading = await message.client.sendMessage(message.jid,Lang.DOWNLOADING_SONG,MessageType.text, {quoted: message.data});
+  
+    let title = arama[0].title.replace(' ', '+');
+    let stream = ytdl(arama[0].videoId, {
+        quality: 'audio',
+    });
+    
+    got.stream(arama[0].image).pipe(fs.createWriteStream(title + '.jpg'));
+    ffmpeg(stream)
+        .audioBitrate(lowestaudio)
+        .save('./' + title + '.mp3')
+        .on('end', async () => {
+            const writer = new ID3Writer(fs.readFileSync('./' + title + '.mp3'));
+            writer.setFrame('TIT2', arama[0].title)
+                .setFrame('TPE1', [arama[0].author.name])
+                .setFrame('APIC', {
+                    type: 3,
+                    data: fs.readFileSync(title + '.jpg'),
+                        description: arama[0].description
+                });
+            writer.addTag();
+            {
+                var uploading = await message.client.sendMessage(message.jid,Lang.UPLOADING_SONG,MessageType.text, {quoted: message.data});
+                await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true});
+                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.document, {quoted: message.data, filename: title + '.mp3', mimetype: 'audio/mpeg'});
+                return await message.client.deleteMessage(message.jid, {id: uploading.key.id, remoteJid: message.jid, fromMe: true})
+            }
+            
+      });
