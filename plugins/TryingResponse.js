@@ -24,7 +24,7 @@ Asena.addCommand({pattern: 'alive$', fromMe: tk, desc: 'Nothing' }, (
  
 // send a buttons message!
 const buttons = [
-  {buttonId:  'absysdtxt$', buttonText: {displayText: '✆ System status' }, type: 1},
+  {buttonId1:  'absysdtxt$', buttonText: {displayText: '✆ System status' }, type: 1},
   {buttonId:  'myversion$', buttonText: {displayText: '☩ Version' }, type: 1}
 ]
 
@@ -42,16 +42,9 @@ await message.client.sendMessage(message.jid, buttonMessage, MessageType.buttons
 
 
 Asena.addCommand({on: 'myversion', fromMe: tk, deleteCommand: false}, (async (message, match) => {
-  if (message.message = 'myversion') {
-await conn.connect ()
-    conn.on('chat-update', chatUpdate => {
-        // `chatUpdate` is a partial object, containing the updated properties of the chat
-        // received a new message
-        if (chatUpdate.messages && chatUpdate.count) {
-            const message = chatUpdate.messages.all()[0]
-            console.log (message)
-        } else console.log (chatUpdate) // see updates (can be archived, pinned etc.)
-    })
+  if (message.contains = buttonId1 ) {
+await message.client.sendMessage(message.jid, buttonMessage, MessageType.buttonsMessage)
+
 
   
    
