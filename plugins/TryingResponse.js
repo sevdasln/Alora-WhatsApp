@@ -42,8 +42,9 @@ await message.client.sendMessage(message.jid, buttonMessage, MessageType.buttons
 
 
 Asena.addCommand({on: 'myversion', fromMe: tk, deleteCommand: false}, (async (message, match) => {
-  if (message.contains = buttonId1 ) {
-await message.client.sendMessage(message.jid, buttonMessage, MessageType.buttonsMessage)
+  if (message.contains = {buttonId1} ) {
+
+await message.client.sendMessage(message.jid, fs.readFileSync("./media/VERSLOGO.jpg"), MessageType.image, { caption: '```MS.ALORA V2.2.9```'})
 
 
   
