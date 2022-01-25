@@ -1,12 +1,3 @@
-
-
-/*
-█▀▀█ █░░ █▀▀█ █▀▀█ █▀▀█   █▀▀▄ █▀▀█ ▀▀█▀▀
-█▄▄█ █░░ █░░█ █▄▄▀ █▄▄█   █▀▀▄ █░░█ ░░█░░
-▀░░▀ ▀▀▀ ▀▀▀▀ ▀░▀▀ ▀░░▀   ▀▀▀░ ▀▀▀▀ ░░▀░░
-*/
-
-
 const Asena = require('../events');
 const {
     MessageType,
@@ -94,3 +85,5 @@ Asena.addCommand({pattern: 'sdsong ?(.*)', fromMe: tk, desc: Lang.SONG_DESC}, (a
             }
             
       });
+
+}))
