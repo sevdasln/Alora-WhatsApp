@@ -35,7 +35,7 @@ const Language = require('./language');
 const Lang = Language.getString('updater');
 
 // Sql
-const AloraDB = config.DATABASE.define('AloraBotDatabase', {
+const AloraDB = config.DATABASE.define('WhatsAsenaDuplicated', {
     info: {
       type: DataTypes.STRING,
       allowNull: false
