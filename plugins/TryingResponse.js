@@ -44,7 +44,6 @@ await message.client.sendMessage(message.jid, buttonMessage, MessageType.buttons
 
 
 Asena.addCommand({on: 'text', fromMe: tk, deleteCommand: false}, (async (message, match) => {
-  if (message.message = 'myversion$' ) {
 
 await message.client.sendMessage(message.jid, fs.readFileSync("./media/VERSLOGO.jpg"), MessageType.image, { caption: '```MS.ALORA V2.2.9```'})
 
