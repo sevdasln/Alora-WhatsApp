@@ -1,6 +1,6 @@
 {
   "name": "Alora-Whatsapp",
-  "version": "1.0.0",
+  "version": "2.3.5",
   "description": "Alora project - a Whatsapp userbot helping to improve your Whatsapp experience.",
   "main": "./Alora-WhatsApp/bot.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "asena",
     "WhatsAsena"
   ],
-  "author": "AsenaDev / Yusuf Usta",
+  "author": "AloraDev / Yusuf Usta",
   "developer": "AsenaDev / @phaticusthiccy / xRASHMITH",
   "license": "GPL-3.0-or-later",
   "bugs": {
