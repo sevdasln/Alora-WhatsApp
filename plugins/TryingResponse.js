@@ -20,8 +20,9 @@ Asena.addCommand({pattern: 'alive$', fromMe: tk, desc: 'Nothing' }, (
     message, match
   ) => {
    
+var buttonId1 = absysdtxt;
+ var buttonId = myversion;
 
- 
 // send a buttons message!
 const buttons = [
   {buttonId1:  'absysdtxt$', buttonText: {displayText: '✆ System status' }, type: 1},
@@ -42,7 +43,7 @@ await message.client.sendMessage(message.jid, buttonMessage, MessageType.buttons
 
 
 Asena.addCommand({on: 'myversion', fromMe: tk, deleteCommand: false}, (async (message, match) => {
-  if (message.contains = {buttonId1} ) {
+  if (message.contains = buttonId ) {
 
 await message.client.sendMessage(message.jid, fs.readFileSync("./media/VERSLOGO.jpg"), MessageType.image, { caption: '```MS.ALORA V2.2.9```'})
 
