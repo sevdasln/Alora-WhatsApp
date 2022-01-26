@@ -44,8 +44,8 @@ else MSG = Config.ALIVEMSG
 
 // send a buttons message!
 const buttons = [
-  {buttonId: PREFIXBTN + 'absysdtxt', buttonText: {displayText: '✆ System status' }, type: 1},
-  {buttonId: PREFIXBTN + 'abversion', buttonText: {displayText: '☩ Version' }, type: 1}
+  {buttonId: HANDLER + 'absysdtxt', buttonText: {displayText: '✆ System status' }, type: 1},
+  {buttonId: HANDLER + 'abversion', buttonText: {displayText: '☩ Version' }, type: 1}
 ]
 
 const buttonMessage = {
