@@ -19,22 +19,26 @@ Asena.addCommand({pattern: 'alive$', fromMe: tk, desc: 'Nothing' }, (
   async (
     message, match
   ) => {
-   
-// send a buttons message!
-const buttons = [
-  {buttonId:  'absysdtxt$', buttonText: {displayText: '✆ System status' }, type: 1},
-  {buttonId:  'myversion$', buttonText: {displayText: '☩ Version' }, type: 1}
+
+
+
+//send a template message with an image **attached**!
+
+
+const templateButtons = [
+  {index: 1, urlButton: {displayText: '⭐ Star Alora on GitHub!', url: 'https://github.com/xYAZUWA/Alora'}},
+  {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '+1 (234) 1234-567'}},
+  {index: 3, quickReplyButton: {displayText: 'This is a reply, just like normal buttons!', id: 'id-like-buttons-message'}},
 ]
 
 const buttonMessage = {
-    contentText: '╭──────────◅\n│\n│🎧ʜᴇʟʟᴏ ᴜꜱᴇʀ\n│╭──────────────╮\n│ 👸🏻Ｉ ＡＭ A L I V E  👸\n│╰──────────────╯\n│\n├►ɪ ᴀᴍ ᴀʟᴏʀᴀ ʙᴏᴛ\n│\n│▻ᴠᴇʀꜱɪᴏɴ - ᴡɪᴛʜ ʙᴜᴛᴛᴏɴꜱ\n│\n├▻ᴅᴇᴠᴇʟᴏᴘᴇʀ - xY̷A̷Z̷U̷W̷A̷\n│\n├▻ᴍᴇɴᴜ ᴄᴏᴍᴍᴀɴᴅ - .alora\n│\n│💞ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ👸\n│\n╰────────────▻\nـــ٨ـہہـ♡ـ٨ـہـ',
-    footerText: '© ǫᴜᴇᴇɴ ᴀʟᴏʀᴀ ᴛᴇꜱᴛ ',
-    buttons: buttons,
-    headerType: 1
-    
+    text: "Test⭕⭕⭕⭕⭕",
+    footer: 'Hello World',
+    templateButtons: templateButttons,
+    image: {url: 'https://i.ibb.co/c2s9Cbs/LOGOA.png'}
 }
 
-await message.client.sendMessage(message.jid, buttonMessage, MessageType.buttonsMessage)
+const sendMsg = await sock.sendMessage(id, templateMessage)
 
 }));
 
