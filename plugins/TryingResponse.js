@@ -25,7 +25,7 @@ Asena.addCommand({pattern: 'alive$', fromMe: tk, desc: 'Nothing' }, (
 //send a template message with an image **attached**!
 
 
-const Buttons = [
+const buttons = [
   {index: 1, urlButton: {displayText: '⭐ Star Alora on GitHub!', url: 'https://github.com/xYAZUWA/Alora'}},
   {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '+1 (234) 1234-567'}},
   {index: 3, quickReplyButton: {displayText: 'This is a reply, just like normal buttons!', id: 'id-like-buttons-message'}},
@@ -34,7 +34,7 @@ const Buttons = [
 const buttonMessage = {
     text: "Test",
     footer: 'Hello World',
-    Buttons: Butttons,
+    buttons: buttons,
     image: {url: 'https://i.ibb.co/c2s9Cbs/LOGOA.png'}
 }
 
