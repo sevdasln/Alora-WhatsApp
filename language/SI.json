@@ -69,6 +69,11 @@
             "TERM_DESC": "Allows to run the command on the server's shell.",
             "GIVE_ME_CODE": "*Give me a code!*"
         },
+           "ttpmaker": {
+            "TTP_DESC": "TTP සාදයි",
+            "ATTP_DESC": "ATTP සාදයි",
+            "NEED_WORD": "විධානයට පසු වචන ඇතුලත් කරන්න."
+       }, 
         "nekobin": {
             "NEKO_DESC": "Replied messages will be added to nekobin.com.",
             "NEED_REPLY": "```Please reply to a message!```",
