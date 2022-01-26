@@ -10,6 +10,8 @@ const Config = require('../config')
 const axios = require('axios')
 const request = require('request');
 const os = require('os');
+const Language = require('../language');
+const Lang = Language.getString('scrapers');
 
 let tk = Config.WORKTYPE == 'public' ? false: true
    
