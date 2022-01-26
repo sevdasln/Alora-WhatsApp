@@ -62,6 +62,9 @@ if (Config.WORKTYPE == 'private') {
                     }
                 }
             );
+            await message.client.sendMessage(message.jid,'╭─────────●●►\n ▏```PROCESSING COMMAND LIST```\n╰─────────●●►', MessageType.text);    
+            await message.client.sendMessage(message.jid,'╭─────────●●►\n ▏```Here Is My Commands```\n╰─────────●●►', MessageType.text);    
+                  
             await message.client.sendMessage(
                 message.jid,'╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n' + CMD_HELP, MessageType.text
             );    
@@ -115,7 +118,11 @@ if (Config.WORKTYPE == 'private') {
                 }
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
-            await message.client.sendMessage(
+
+            await message.client.sendMessage(message.jid,'╭─────────●●►\n ▏```PROCESSING COMMAND LIST```\n╰─────────●●►', MessageType.text);    
+            await message.client.sendMessage(message.jid,'╭─────────●●►\n ▏```Here Is My Commands```\n╰─────────●●►', MessageType.text);    
+                            
+               await message.client.sendMessage(
                 message.jid,'╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n' + CMD_HELP, MessageType.text
             );
         }
@@ -170,7 +177,10 @@ else if (Config.WORKTYPE == 'public') {
                     }
                 }
             );
-            await message.client.sendMessage(
+           await message.client.sendMessage(message.jid,'╭─────────●●►\n ▏```PROCESSING COMMAND LIST```\n╰─────────●●►', MessageType.text);    
+            await message.client.sendMessage(message.jid,'╭─────────●●►\n ▏```Here Is My Commands```\n╰─────────●●►', MessageType.text);    
+                  
+             await message.client.sendMessage(
                 message.jid,'╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n' + CMD_HELP, MessageType.text
             );    
         } else {
@@ -223,7 +233,11 @@ else if (Config.WORKTYPE == 'public') {
                 }
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
-            await message.client.sendMessage(
+         
+           await message.client.sendMessage(message.jid,'╭─────────●●►\n ▏```PROCESSING COMMAND LIST```\n╰─────────●●►', MessageType.text);    
+            await message.client.sendMessage(message.jid,'╭─────────●●►\n ▏```Here Is My Commands```\n╰─────────●●►', MessageType.text);    
+                           
+           await message.client.sendMessage(
                 message.jid,'╭─────────────────────╮\n⌨︎ *👸ALORA COMMAND LIST 💃*⌨︎\n╰─────────────────────╯\n\n' + CMD_HELP, MessageType.text
             );
         }
