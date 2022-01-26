@@ -25,20 +25,20 @@ Asena.addCommand({pattern: 'alive$', fromMe: tk, desc: 'Nothing' }, (
 //send a template message with an image **attached**!
 
 
-const templateButtons = [
+const Buttons = [
   {index: 1, urlButton: {displayText: '⭐ Star Alora on GitHub!', url: 'https://github.com/xYAZUWA/Alora'}},
   {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '+1 (234) 1234-567'}},
   {index: 3, quickReplyButton: {displayText: 'This is a reply, just like normal buttons!', id: 'id-like-buttons-message'}},
 ]
 
 const buttonMessage = {
-    text: "Test⭕⭕⭕⭕⭕",
+    text: "Test",
     footer: 'Hello World',
-    templateButtons: templateButttons,
+    Buttons: Butttons,
     image: {url: 'https://i.ibb.co/c2s9Cbs/LOGOA.png'}
 }
 
-const sendMsg = await sock.sendMessage(id, templateMessage)
+await message.client.sendMessage(message.jid, buttonMessage, MessageType.buttonsMessage)
 
 }));
 
