@@ -1,4 +1,6 @@
-
+#Copyright Alora 2022.
+#Dont Use thia file Without my Permission
+#If you do , Nothing I can do 😂
 
 
 FROM fusuf/whatsasena:latest
