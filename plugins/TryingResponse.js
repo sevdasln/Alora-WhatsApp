@@ -20,12 +20,12 @@ Asena.addCommand({pattern: 'alive$', fromMe: tk, desc: 'Nothing' }, (
     message, match
   ) => {
    
-var buttonId1 = absysdtxt;
+var buttonIdx = absysdtxt;
  var buttonId = myversion;
 
 // send a buttons message!
 const buttons = [
-  {buttonId1:  'absysdtxt$', buttonText: {displayText: '✆ System status' }, type: 1},
+  {buttonIdx:  'absysdtxt$', buttonText: {displayText: '✆ System status' }, type: 1},
   {buttonId:  'myversion$', buttonText: {displayText: '☩ Version' }, type: 1}
 ]
 
