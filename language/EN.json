@@ -51,6 +51,11 @@
             "L_DESC": "It send your location.",
             "L_WARN": "Please open your location before using command!"
         },
+        "ttpmaker": {
+            "TTP_DESC": "Makes TTP.",
+            "ATTP_DESC": "Makes ATTP",
+            "NEED_WORD": "Please type a word after Command"
+       }, 
         "afk": {
             "AFK_DESC": "It makes you AFK - Away From Keyboard.",
             "IM_AFK": "*I'm AFK now!*",
